@@ -2161,6 +2161,7 @@ bill_id,date,chamber,sequence,action
 2095662,2026-04-15,Senate,8,"Passed Senate, yeas 47, nays 0. S.J. 795."
 2095662,2026-04-15,Senate,9,Immediate message. S.J. 797.
 2095662,2026-04-15,House,10,Message from Senate. H.J. 900.
+2095662,2026-05-06,House,11,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/06."
 2095685,2026-01-28,House,1,"Introduced, referred to Education. H.J. 164."
 2095603,2026-01-28,House,1,"Introduced, referred to Education. H.J. 164."
 2095603,2026-02-11,House,2,"Subcommittee: Johnson, C., Henderson and Levin. H.J. 262."
@@ -5007,6 +5008,7 @@ bill_id,date,chamber,sequence,action
 2120116,2026-04-15,Senate,12,"Passed Senate, yeas 47, nays 0. S.J. 800."
 2120116,2026-04-15,Senate,13,Immediate message. S.J. 801.
 2120116,2026-04-15,House,14,Message from Senate. H.J. 901.
+2120116,2026-05-06,House,15,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/06."
 2120068,2026-02-19,House,1,"Introduced, placed on calendar. H.J. 349."
 2120068,2026-03-05,House,2,"Passed House, yeas 86, nays 0. H.J. 579."
 2120068,2026-03-05,House,3,Immediate message. H.J. 601.
@@ -5914,6 +5916,7 @@ bill_id,date,chamber,sequence,action
 2139497,2026-04-22,Senate,9,"Passed Senate, yeas 44, nays 0. S.J. 875."
 2139497,2026-04-22,Senate,10,Immediate message. S.J. 875.
 2139497,2026-04-22,House,11,Message from Senate. H.J. 977.
+2139497,2026-05-06,House,12,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/06."
 1963615,2025-02-10,House,1,"Introduced, referred to Education. H.J. 273."
 2139470,2026-03-30,House,1,"Introduced, placed on Ways and Means calendar. H.J. 765."
 2139470,2026-04-02,House,2,Fiscal note.
@@ -20449,8 +20452,9 @@ bill_id,date,chamber,sequence,action
 2134035,2026-05-02,House,37,House concurred in Senate amendment H-8495. H.J. 1156.
 2134035,2026-05-02,House,38,"Passed House, yeas 62, nays 22. H.J. 1156."
 2134035,2026-05-02,House,39,Explanation of vote. H.J. 1158.
-2134035,2026-05-02,House,40,Immediate message. H.J. 1157.
-2134035,2026-05-03,Senate,41,Message from House. S.J. 1020.
+2134035,2026-05-03,House,40,Explanation of vote. H.J. 05/03.
+2134035,2026-05-02,House,41,Immediate message. H.J. 1157.
+2134035,2026-05-03,Senate,42,Message from House. S.J. 1020.
 2137573,2026-03-24,Senate,1,"Introduced, placed on Appropriations calendar. S.J. 639."
 2137573,2026-03-24,Senate,2,"Committee report, approving bill. S.J. 640."
 2137573,2026-03-26,Senate,3,NOBA: Senate Full Approps
