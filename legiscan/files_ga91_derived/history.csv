@@ -3398,14 +3398,14 @@ bill_id,date,chamber,sequence,action
 2114135,2026-02-16,House,3,Subcommittee Meeting: 02/17/2026 12:30PM House Lounge.
 2114135,2026-02-17,House,4,Subcommittee recommends passage.
 2114060,2026-02-11,House,1,"Introduced, referred to State Government. H.J. 258."
-2114060,2026-02-12,House,2,"Subcommittee: Lundgren, Baeth and Hora. H.J. 279."
+2114060,2026-02-12,House,2,"Subcommittee: Lundgren, Baeth and Hora. H.J. 278."
 2114060,2026-02-16,House,3,Subcommittee Meeting: 02/17/2026 12:00PM RM 19.
 2114060,2026-02-17,House,4,Subcommittee recommends amendment and passage.
-2114060,2026-02-18,House,5,"Committee report, recommending amendment and passage. H.J. 339."
-2114060,2026-02-18,House,6,"Committee vote: Yeas, 13. Nays, 8. Excused, 2. H.J. 339."
+2114060,2026-02-18,House,5,"Committee report, recommending amendment and passage. H.J. 340."
+2114060,2026-02-18,House,6,"Committee vote: Yeas, 13. Nays, 8. Excused, 2. H.J. 340."
 2114081,2026-02-11,House,1,"Introduced, referred to State Government. H.J. 258."
 2114020,2026-02-11,House,1,"Introduced, referred to Transportation. H.J. 258."
-2114020,2026-02-16,House,2,"Subcommittee: Jones, Bossman and Gosa. H.J. 311."
+2114020,2026-02-16,House,2,"Subcommittee: Jones, Bossman and Gosa. H.J. 310."
 2114028,2026-02-11,House,1,"Introduced, referred to Ways and Means. H.J. 258."
 2114077,2026-02-11,House,1,"Introduced, referred to Judiciary. H.J. 258."
 2114062,2026-02-11,House,1,"Introduced, referred to Natural Resources. H.J. 258."
@@ -6199,6 +6199,7 @@ bill_id,date,chamber,sequence,action
 2143277,2026-05-02,Senate,20,Explanation of vote. S.J. 1012.
 2143277,2026-05-02,Senate,21,Immediate message. S.J. 990.
 2143277,2026-05-02,House,22,Message from Senate. H.J. 1128.
+2143277,2026-05-08,House,23,NOBA: Final
 2143382,2026-04-15,House,1,"Introduced, placed on Appropriations calendar. H.J. 902."
 2143382,2026-04-17,House,2,NOBA: House Full Approps
 2143382,2026-04-27,House,3,Amendment H-8404 filed. H.J. 1012.
@@ -6323,6 +6324,7 @@ bill_id,date,chamber,sequence,action
 2143757,2026-05-02,Senate,13,"Passed Senate, yeas 34, nays 9. S.J. 970."
 2143757,2026-05-02,Senate,14,Immediate message. S.J. 970.
 2143757,2026-05-02,House,15,Message from Senate. H.J. 1111.
+2143757,2026-05-08,House,16,NOBA: Final
 2144519,2026-04-21,House,1,"Introduced, placed on Appropriations calendar. H.J. 955."
 2144519,2026-04-21,House,2,NOBA: House Full Approps
 2144519,2026-05-01,House,3,Amendment H-8461 filed. H.J. 1078.
@@ -11769,11 +11771,11 @@ bill_id,date,chamber,sequence,action
 2089927,2026-01-22,House,1,"Resolution filed, laid over under Rule 25. H.J. 148."
 2094269,2026-01-27,House,1,"Resolution filed, laid over under Rule 25. H.J. 162."
 2094269,2026-04-01,House,2,Resolution adopted. H.J. 789.
-2108011,2026-02-04,House,1,"Resolution filed, laid over under Rule 25. H.J. 209."
-2107987,2026-02-04,House,1,"Resolution filed, laid over under Rule 25. H.J. 209."
+2108011,2026-02-04,House,1,"Resolution filed, laid over under Rule 25. H.J. 210."
+2107987,2026-02-04,House,1,"Resolution filed, laid over under Rule 25. H.J. 210."
 2118151,2026-02-17,House,1,"Resolution filed, laid over under Rule 25. H.J. 328."
 2118151,2026-02-18,House,2,Resolution adopted. H.J. 332.
-2119989,2026-02-19,House,1,"Resolution filed, laid over under Rule 25. H.J. 363."
+2119989,2026-02-19,House,1,"Resolution filed, laid over under Rule 25. H.J. 364."
 2122602,2026-02-23,House,1,"Resolution filed, laid over under Rule 25. H.J. 396."
 2122602,2026-02-25,House,2,Resolution adopted. H.J. 417.
 2123789,2026-02-25,House,1,"Resolution filed, laid over under Rule 25. H.J. 436."
@@ -15960,8 +15962,8 @@ bill_id,date,chamber,sequence,action
 2118893,2026-02-18,House,3,"Subcommittee: Sorensen, Sitzmann and Wichtendahl. H.J. 333."
 2118893,2026-02-18,House,4,Subcommittee Meeting: 02/19/2026 12:00PM RM 304.
 2118893,2026-02-19,House,5,Subcommittee recommends passage.
-2118893,2026-02-19,House,6,"Committee report, recommending passage. H.J. 357."
-2118893,2026-02-19,House,7,"Committee vote: Yeas, 19. Nays, 0. Excused, 2. H.J. 357."
+2118893,2026-02-19,House,6,"Committee report, recommending passage. H.J. 358."
+2118893,2026-02-19,House,7,"Committee vote: Yeas, 19. Nays, 0. Excused, 2. H.J. 358."
 2122906,2026-02-24,House,1,By COMMITTEE ON WAYS AND MEANS
 2122906,2026-02-24,House,2,"Introduced, referred to Ways and Means. H.J. 413."
 2122906,2026-02-24,House,3,"Subcommittee: Behn, Gjerde and Wills, J. H.J. 413."
@@ -24320,7 +24322,7 @@ bill_id,date,chamber,sequence,action
 2030145,2025-05-14,Senate,4,Immediate message. S.J. 1028.
 2030145,2025-05-14,House,5,Message from Senate. H.J. 1204.
 2030145,2026-01-13,House,6,"Read first time, referred to Ways and Means. H.J. 45."
-2030145,2026-01-29,House,7,"Subcommittee: Wulf, Gjerde and Hermanson. H.J. 179."
+2030145,2026-01-29,House,7,"Subcommittee: Wulf, Gjerde and Hermanson. H.J. 178."
 2030145,2026-03-09,House,8,Subcommittee Meeting: 03/11/2026 12:00PM House Lounge 2.
 2030145,2026-03-11,House,9,Subcommittee recommends passage.
 2030145,2026-04-21,House,10,"Committee report, recommending passage. H.J. 987."
