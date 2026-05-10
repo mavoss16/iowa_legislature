@@ -4109,6 +4109,7 @@ bill_id,document_id,document_type,document_size,document_mime,document_desc,url,
 2140731,3410770,text,463130,text/html,Introduced,https://legiscan.com/IA/text/SF2477/id/3410770,https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SF2477.html
 2140731,709964,supplement,135341,application/pdf,Fiscal Note,https://legiscan.com/IA/supplement/SF2477/id/709964,https://www.legis.iowa.gov/docs/publications/FN/1603930.pdf
 2140762,3410802,text,135344,text/html,Introduced,https://legiscan.com/IA/text/SF2478/id/3410802,https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SF2478.html
+2140762,3434311,text,121187,text/html,Enrolled,https://legiscan.com/IA/text/SF2478/id/3434311,https://www.legis.iowa.gov/docs/publications/LGE/91/attachments/SF2478.html
 2140762,709959,supplement,411094,application/pdf,Fiscal Note/Analysis,https://legiscan.com/IA/supplement/SF2478/id/709959,https://www.legis.iowa.gov/docs/publications/NOBA/1603927.pdf
 2140762,719038,supplement,411026,application/pdf,Fiscal Note/Analysis,https://legiscan.com/IA/supplement/SF2478/id/719038,https://www.legis.iowa.gov/docs/publications/NOBA/1604776.pdf
 2140762,719737,supplement,411246,application/pdf,Fiscal Note/Analysis,https://legiscan.com/IA/supplement/SF2478/id/719737,https://www.legis.iowa.gov/docs/publications/NOBA/1604854.pdf
@@ -4485,6 +4486,7 @@ bill_id,document_id,document_type,document_size,document_mime,document_desc,url,
 1987141,3145977,text,185376,text/html,Introduced,https://legiscan.com/IA/text/SF467/id/3145977,https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SF467.html
 1987372,3146175,text,89003,text/html,Introduced,https://legiscan.com/IA/text/SF468/id/3146175,https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SF468.html
 1987216,3146041,text,34594,text/html,Introduced,https://legiscan.com/IA/text/SF469/id/3146041,https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SF469.html
+1987216,3434328,text,20422,text/html,Enrolled,https://legiscan.com/IA/text/SF469/id/3434328,https://www.legis.iowa.gov/docs/publications/LGE/91/attachments/SF469.html
 1921750,3058931,text,143691,text/html,Introduced,https://legiscan.com/IA/text/SF47/id/3058931,https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SF47.html
 1987529,3146309,text,134932,text/html,Introduced,https://legiscan.com/IA/text/SF470/id/3146309,https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SF470.html
 1987529,3185553,text,101106,text/html,Enrolled,https://legiscan.com/IA/text/SF470/id/3185553,https://www.legis.iowa.gov/docs/publications/LGE/91/attachments/SF470.html

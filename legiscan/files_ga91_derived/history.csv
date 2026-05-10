@@ -3663,8 +3663,8 @@ bill_id,date,chamber,sequence,action
 2117299,2026-02-16,House,2,"Subcommittee: Blom, Ramirez and Rinker. H.J. 311."
 2117299,2026-02-17,House,3,Subcommittee Meeting: 02/18/2026 12:15PM RM 305.
 2117299,2026-02-18,House,4,Subcommittee recommends amendment and passage.
-2117299,2026-02-18,House,5,"Committee report, recommending passage. H.J. 341."
-2117299,2026-02-18,House,6,"Committee vote: Yeas, 16. Nays, 1. Excused, 0. H.J. 341."
+2117299,2026-02-18,House,5,"Committee report, recommending passage. H.J. 342."
+2117299,2026-02-18,House,6,"Committee vote: Yeas, 16. Nays, 1. Excused, 0. H.J. 342."
 2117399,2026-02-16,House,1,"Introduced, referred to Veterans Affairs. H.J. 296."
 2117399,2026-02-16,House,2,"Subcommittee: Hayes, Amos Jr. and Hermanson. H.J. 311."
 2117399,2026-02-17,House,3,Subcommittee Meeting: 02/18/2026 12:00PM RM 19.
@@ -22447,7 +22447,7 @@ bill_id,date,chamber,sequence,action
 1987216,2026-05-01,House,22,Placed on Ways and Means calendar. H.J. 1084.
 1987216,2026-05-02,House,23,"Passed House, yeas 58, nays 27. H.J. 1116."
 1987216,2026-05-02,House,24,Explanations of votes. H.J. 1159.
-1987216,2026-05-02,House,25,Explanation of vote. H.J. 05/02.
+1987216,2026-05-02,House,25,Explanation of vote. H.J. 1160.
 1987216,2026-05-02,House,26,Immediate message. H.J. 1118.
 1987216,2026-05-02,Senate,27,Message from House. S.J. 979.
 1921750,2025-01-15,Senate,1,"Introduced, referred to State Government. S.J. 88."
