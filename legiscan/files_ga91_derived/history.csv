@@ -366,6 +366,7 @@ bill_id,date,chamber,sequence,action
 2024925,2026-05-01,House,23,Explanation of vote. H.J. 1082.
 2024925,2026-04-23,House,24,Immediate message. H.J. 996.
 2024925,2026-04-27,Senate,25,Message from House. S.J. 881.
+2024925,2026-05-11,House,26,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/11."
 2024864,2025-04-17,House,1,"Introduced, placed on Ways and Means calendar. H.J. 987."
 2024864,2025-04-22,House,2,Fiscal note.
 2024864,2025-05-15,House,3,Rereferred to Ways and Means. H.J. 1222.
@@ -1642,7 +1643,7 @@ bill_id,date,chamber,sequence,action
 2077666,2026-04-21,House,5,"Committee report, recommending passage. H.J. 973."
 2077666,2026-04-21,House,6,"Committee vote: Yeas, 24. Nays, 0. Excused, 1. H.J. 974."
 2077666,2026-04-22,House,7,"Committee report approving bill, renumbered as HF 2786."
-2077666,2026-05-02,House,8,Withdrawn. H.J. 1158.
+2077666,2026-05-02,House,8,Withdrawn. H.J. 1157.
 2078204,2026-01-14,House,1,"Introduced, referred to Health and Human Services. H.J. 94."
 2078204,2026-01-14,House,2,"Subcommittee: Meyer, A., Wilburn and Wilz, H. H.J. 98."
 2078204,2026-01-15,House,3,Subcommittee Meeting: 01/21/2026 12:00PM RM 304.
@@ -2558,11 +2559,14 @@ bill_id,date,chamber,sequence,action
 2102536,2026-04-13,House,18,Amendment H-8350 filed. H.J. 884.
 2102536,2026-04-13,House,19,"Point of order raised on amendment H-8350 to Senate amendment H-8319, ruled not germane. H.J. 884."
 2102536,2026-04-13,House,20,"Motion to suspend rules for immediate consideration of amendment H-8350 to Senate amendment H-8319, yeas 34, nays 56. H.J. 885."
-2102536,2026-04-13,House,21,Motion to suspend rules failed. H.J. 885.
-2102536,2026-04-13,House,22,House concurred in Senate amendment H-8319. H.J. 886.
-2102536,2026-04-13,House,23,"Passed House, yeas 70, nays 20. H.J. 886."
-2102536,2026-04-13,House,24,Immediate message. H.J. 887.
-2102536,2026-04-14,Senate,25,Message from House. S.J. 777.
+2102536,2026-05-02,House,21,Explanation of vote. H.J. 1158.
+2102536,2026-04-13,House,22,Motion to suspend rules failed. H.J. 885.
+2102536,2026-04-13,House,23,House concurred in Senate amendment H-8319. H.J. 886.
+2102536,2026-04-13,House,24,"Passed House, yeas 70, nays 20. H.J. 886."
+2102536,2026-05-02,House,25,Explanation of vote. H.J. 1158.
+2102536,2026-04-13,House,26,Immediate message. H.J. 887.
+2102536,2026-04-14,Senate,27,Message from House. S.J. 777.
+2102536,2026-05-11,House,28,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/11."
 2102589,2026-01-30,House,1,"Introduced, placed on calendar. H.J. 190."
 2102589,2026-02-23,House,2,Amendment H-8017 filed. H.J. 397.
 2102589,2026-02-26,House,3,"Amendment H-8017, yeas 30, nays 56, lost. H.J. 456."
@@ -3145,6 +3149,8 @@ bill_id,date,chamber,sequence,action
 2111729,2026-05-01,House,17,Explanation of vote. H.J. 1083.
 2111729,2026-04-30,House,18,Immediate message. H.J. 1066.
 2111729,2026-04-30,Senate,19,Message from House. S.J. 941.
+2111729,2026-05-11,House,20,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/11."
+2111729,2026-05-11,House,21,Signed by Governor. H.J. 05/11.
 2111655,2026-02-09,House,1,"Introduced, placed on calendar. H.J. 233."
 2111655,2026-02-26,House,2,"Passed House, yeas 90, nays 0. H.J. 451."
 2111655,2026-02-26,House,3,Immediate message. H.J. 460.
@@ -4355,7 +4361,7 @@ bill_id,date,chamber,sequence,action
 2117667,2026-04-13,House,17,Immediate message. H.J. 887.
 2117667,2026-04-14,Senate,18,Message from House. S.J. 777.
 2117667,2026-05-02,House,19,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 1160."
-2117667,2026-05-02,House,20,Signed by Governor. H.J. 1161.
+2117667,2026-05-02,House,20,Signed by Governor. H.J. 1160.
 2117674,2026-02-16,House,1,"Introduced, placed on calendar. H.J. 306."
 2117674,2026-03-19,House,2,Placed on calendar under unfinished business. H.J. 691.
 2117674,2026-04-14,House,3,"Amendments H-8354, H-8355, H-8360 filed. H.J. 899."
@@ -4501,7 +4507,7 @@ bill_id,date,chamber,sequence,action
 2117637,2026-04-16,House,8,"Committee report, recommending amendment and passage. H.J. 952."
 2117637,2026-04-16,House,9,"Committee vote: Yeas, 14. Nays, 7. Excused, 4. H.J. 952."
 2117637,2026-04-29,House,10,"Committee report approving bill, renumbered as HF 2788."
-2117637,2026-05-02,House,11,Withdrawn. H.J. 1158.
+2117637,2026-05-02,House,11,Withdrawn. H.J. 1157.
 2117621,2026-02-16,House,1,"Introduced, placed on calendar. H.J. 309."
 2117621,2026-03-04,House,2,"Passed House, yeas 94, nays 2. H.J. 549."
 2117621,2026-03-04,House,3,Immediate message. H.J. 569.
@@ -5198,7 +5204,7 @@ bill_id,date,chamber,sequence,action
 2121023,2026-04-21,House,24,Immediate message. H.J. 973.
 2121023,2026-04-22,Senate,25,Message from House. S.J. 862.
 2121023,2026-05-02,House,26,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 1160."
-2121023,2026-05-02,House,27,Signed by Governor. H.J. 1161.
+2121023,2026-05-02,House,27,Signed by Governor. H.J. 1160.
 2121049,2026-02-20,House,1,"Introduced, placed on calendar. H.J. 366."
 2121049,2026-03-04,House,2,Amendment H-8160 filed. H.J. 571.
 2121062,2026-02-20,House,1,"Introduced, placed on calendar. H.J. 366."
@@ -5369,6 +5375,7 @@ bill_id,date,chamber,sequence,action
 2122543,2026-04-27,Senate,43,"Passed Senate, yeas 30, nays 16. S.J. 882."
 2122543,2026-04-27,Senate,44,Immediate message. S.J. 885.
 2122543,2026-04-27,House,45,Message from Senate. H.J. 1010.
+2122543,2026-05-11,House,46,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/11."
 2122515,2026-02-23,House,1,"Introduced, placed on calendar. H.J. 376."
 2122346,2026-02-23,House,1,"Introduced, placed on calendar. H.J. 376."
 2122346,2026-03-03,House,2,Amendment H-8123 filed. H.J. 526.
@@ -5660,7 +5667,7 @@ bill_id,date,chamber,sequence,action
 2122769,2026-04-29,House,5,"Committee report, recommending amendment and passage. H.J. 1044."
 2122769,2026-04-29,House,6,"Committee vote: Yeas, 23. Nays, 0. Excused, 2. H.J. 1045."
 2122769,2026-04-30,House,7,"Committee report approving bill, renumbered as HF 2795."
-2122769,2026-05-02,House,8,Withdrawn. H.J. 1158.
+2122769,2026-05-02,House,8,Withdrawn. H.J. 1157.
 2122891,2026-02-24,House,1,"Introduced, referred to Appropriations. H.J. 400."
 2122891,2026-03-24,House,2,"Subcommittee: Gehlbach, Matson and Stone. H.J. 743."
 2122891,2026-03-24,House,3,Subcommittee Meeting: 03/25/2026 2:30PM RM 103.
@@ -6013,7 +6020,7 @@ bill_id,date,chamber,sequence,action
 2141387,2026-04-15,House,3,"Amendment H-8368 filed, withdrawn. H.J. 908."
 2141387,2026-04-15,House,4,"Amendment H-8365 filed, adopted. H.J. 908."
 2141387,2026-04-15,House,5,"Passed House, yeas 94, nays 1. H.J. 908."
-2141387,2026-05-02,House,6,Explanation of vote. H.J. 05/02.
+2141387,2026-05-02,House,6,Explanation of vote. H.J. 1158.
 2141387,2026-04-15,House,7,Immediate message. H.J. 917.
 2141387,2026-04-16,Senate,8,Message from House. S.J. 814.
 2141387,2026-04-16,Senate,9,"Read first time, passed on file. S.J. 814."
@@ -11256,6 +11263,7 @@ bill_id,date,chamber,sequence,action
 2006350,2026-05-01,House,23,Explanation of vote. H.J. 1082.
 2006350,2026-04-22,House,24,Immediate message. H.J. 985.
 2006350,2026-04-22,Senate,25,Message from House. S.J. 877.
+2006350,2026-05-11,House,26,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/11."
 2006473,2025-03-13,House,1,"Introduced, placed on Ways and Means calendar. H.J. 656."
 2006473,2025-03-21,House,2,Fiscal note.
 2006473,2025-05-15,House,3,Rereferred to Ways and Means. H.J. 1221.
@@ -17282,6 +17290,7 @@ bill_id,date,chamber,sequence,action
 2073156,2026-05-01,House,33,Explanation of vote. H.J. 1083.
 2073156,2026-04-30,House,34,Immediate message. H.J. 1066.
 2073156,2026-04-30,Senate,35,Message from House. S.J. 940.
+2073156,2026-05-11,Senate,36,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
 1954072,2025-02-04,Senate,1,"Introduced, referred to Education. S.J. 189."
 1954072,2025-02-10,Senate,2,"Subcommittee: Pike, Quirmbach, and Salmon."
 1954072,2025-02-12,Senate,3,Subcommittee Meeting: 02/13/2025 11:30AM Senate Lounge.
@@ -18104,12 +18113,14 @@ bill_id,date,chamber,sequence,action
 2107265,2026-04-15,House,16,Amendment H-8230 adopted. H.J. 906.
 2107265,2026-04-15,House,17,Amendment H-8294 withdrawn. H.J. 906.
 2107265,2026-04-15,House,18,"Passed House, yeas 87, nays 8. H.J. 907."
-2107265,2026-04-15,House,19,Immediate message. H.J. 917.
-2107265,2026-04-16,Senate,20,"Message from House, with amendment S-5186. S.J. 813."
-2107265,2026-04-21,Senate,21,Senate concurred with S-5186. S.J. 849.
-2107265,2026-04-21,Senate,22,"Passed Senate, yeas 38, nays 7. S.J. 850."
-2107265,2026-04-21,Senate,23,Immediate message. S.J. 851.
-2107265,2026-04-21,House,24,Message from Senate. H.J. 955.
+2107265,2026-05-02,House,19,Explanation of vote. H.J. 1158.
+2107265,2026-04-15,House,20,Immediate message. H.J. 917.
+2107265,2026-04-16,Senate,21,"Message from House, with amendment S-5186. S.J. 813."
+2107265,2026-04-21,Senate,22,Senate concurred with S-5186. S.J. 849.
+2107265,2026-04-21,Senate,23,"Passed Senate, yeas 38, nays 7. S.J. 850."
+2107265,2026-04-21,Senate,24,Immediate message. S.J. 851.
+2107265,2026-04-21,House,25,Message from Senate. H.J. 955.
+2107265,2026-05-11,House,26,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
 2107278,2026-02-04,Senate,1,"Introduced, placed on calendar. S.J. 196."
 2107278,2026-02-04,Senate,2,"Committee report, approving bill. S.J. 204."
 2107278,2026-02-09,Senate,3,Referred to Ways and Means. S.J. 221.
@@ -19483,6 +19494,7 @@ bill_id,date,chamber,sequence,action
 2119042,2026-04-29,Senate,15,"Passed Senate, yeas 34, nays 12. S.J. 913."
 2119042,2026-04-29,Senate,16,Immediate message. S.J. 916.
 2119042,2026-04-29,House,17,Message from Senate. H.J. 1035.
+2119042,2026-05-11,House,18,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
 2119300,2026-02-18,Senate,1,"Introduced, placed on calendar. S.J. 313."
 2119300,2026-02-18,Senate,2,"Committee report, approving bill. S.J. 318."
 2119300,2026-03-17,Senate,3,"Amendment S-5100 filed, adopted. S.J. 582."
@@ -19872,6 +19884,7 @@ bill_id,date,chamber,sequence,action
 2122171,2026-05-01,House,36,Explanation of vote. H.J. 1083.
 2122171,2026-04-30,House,37,Immediate message. H.J. 1066.
 2122171,2026-04-30,Senate,38,Message from House. S.J. 940.
+2122171,2026-05-11,Senate,39,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
 2122189,2026-02-23,Senate,1,"Introduced, placed on calendar. S.J. 355."
 2122189,2026-02-23,Senate,2,"Committee report, approving bill. S.J. 367."
 2122189,2026-03-02,Senate,3,Attached to HF 2562. S.J. 423.
@@ -20218,6 +20231,7 @@ bill_id,date,chamber,sequence,action
 2122481,2026-05-03,Senate,24,"Passed Senate, yeas 39, nays 5. S.J. 1004."
 2122481,2026-05-03,Senate,25,Immediate message. S.J. 1004.
 2122481,2026-05-02,House,26,Message from Senate. H.J. 1139.
+2122481,2026-05-11,House,27,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
 2122531,2026-02-23,Senate,1,"Introduced, placed on calendar. S.J. 360."
 2122531,2026-02-23,Senate,2,"Committee report, approving bill. S.J. 364."
 2122531,2026-03-03,Senate,3,Attached to HF 2232. S.J. 439.
@@ -20487,6 +20501,7 @@ bill_id,date,chamber,sequence,action
 2137637,2026-05-01,Senate,25,Immediate message. S.J. 955.
 2137637,2026-05-01,House,26,Message from Senate. H.J. 1070.
 2137637,2026-05-01,House,27,NOBA: House Floor
+2137637,2026-05-11,House,28,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
 2138027,2026-03-25,Senate,1,"Introduced, placed on Appropriations calendar. S.J. 645."
 2138027,2026-03-25,Senate,2,"Committee report, approving bill. S.J. 646."
 2138027,2026-03-25,Senate,3,Attached to HF 2617. S.J. 646.
@@ -20700,10 +20715,10 @@ bill_id,date,chamber,sequence,action
 2143219,2026-05-01,House,12,"Committee vote: Yeas, 24. Nays, 0. Excused, 1. H.J. 1085."
 2143219,2026-05-01,House,13,Placed on Ways and Means calendar. H.J. 1085.
 2143219,2026-05-02,House,14,"Passed House, yeas 85, nays 0. H.J. 1113."
-2143219,2026-05-02,House,15,Explanation of vote. H.J. 1159.
-2143219,2026-05-02,House,16,Explanations of votes. H.J. 1160.
-2143219,2026-05-02,House,17,Immediate message. H.J. 1118.
-2143219,2026-05-02,Senate,18,Message from House. S.J. 979.
+2143219,2026-05-02,House,15,Explanations of votes. H.J. 1159.
+2143219,2026-05-02,House,16,Immediate message. H.J. 1118.
+2143219,2026-05-02,Senate,17,Message from House. S.J. 979.
+2143219,2026-05-11,Senate,18,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
 2143211,2026-04-15,Senate,1,"Introduced, placed on Ways and Means calendar. S.J. 804."
 2143211,2026-04-15,Senate,2,"Committee report, approving bill. S.J. 807."
 2143211,2026-04-22,Senate,3,"Passed Senate, yeas 44, nays 0. S.J. 865."
@@ -20713,9 +20728,10 @@ bill_id,date,chamber,sequence,action
 2143211,2026-05-02,House,7,Passed on file. H.J. 1120.
 2143211,2026-05-02,House,8,Substituted for HF 2798. H.J. 1120.
 2143211,2026-05-02,House,9,"Passed House, yeas 85, nays 1. H.J. 1121."
-2143211,2026-05-02,House,10,Explanation of vote. H.J. 1160.
+2143211,2026-05-02,House,10,Explanation of vote. H.J. 1159.
 2143211,2026-05-02,House,11,Immediate message. H.J. 1127.
 2143211,2026-05-02,Senate,12,Message from House. S.J. 990.
+2143211,2026-05-11,Senate,13,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
 2143187,2026-04-15,Senate,1,"Introduced, placed on Ways and Means calendar. S.J. 804."
 2143187,2026-04-15,Senate,2,"Committee report, approving bill. S.J. 807."
 2143204,2026-04-15,Senate,1,"Introduced, placed on Ways and Means calendar. S.J. 804."
@@ -24337,6 +24353,7 @@ bill_id,date,chamber,sequence,action
 2030145,2026-05-02,Senate,19,"Passed Senate, yeas 32, nays 12. S.J. 967."
 2030145,2026-05-02,Senate,20,Immediate message. S.J. 967.
 2030145,2026-05-02,House,21,Message from Senate. H.J. 1111.
+2030145,2026-05-11,House,22,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
 2030142,2025-05-09,Senate,1,"Introduced, placed on Ways and Means calendar. S.J. 955."
 2030142,2025-05-09,Senate,2,"Committee report, approving bill. S.J. 956."
 2030142,2025-05-14,Senate,3,Attached to HF 1008. S.J. 1043.
@@ -24598,7 +24615,7 @@ bill_id,date,chamber,sequence,action
 2022792,2026-05-02,House,19,"Point of order raised on amendment H-8482, ruled not germane. H.J. 1142."
 2022792,2026-05-02,House,20,"Motion to suspend rules for immediate consideration of amendment H-8482, yeas 22, nays 56. H.J. 1142."
 2022792,2026-05-02,House,21,Motion to suspend rules failed. H.J. 1143.
-2022792,2026-05-02,House,22,"Amendment H-8483, yeas 21, nays 57 filed, lost. H.J. 1143."
+2022792,2026-05-02,House,22,"Amendment H-8483, yeas 21, nays 57, filed, lost. H.J. 1143."
 2022792,2026-05-02,House,23,Amendment H-8484 filed. H.J. 1144.
 2022792,2026-05-02,House,24,"Point of order raised on amaendment H-8484, ruled not germane. H.J. 1144."
 2022792,2026-05-02,House,25,"Motion to suspend rules for immediate consideration of amendment H-8484, yeas 21, nays 57. H.J. 1144."
@@ -24611,17 +24628,18 @@ bill_id,date,chamber,sequence,action
 2022792,2026-05-02,House,32,"Point of order raised on amendment H-8486, ruled not germane. H.J. 1147."
 2022792,2026-05-02,House,33,"Motion to suspend rules for immediate consideration of amendment H-8486, yeas 22, nays 56. H.J. 1147."
 2022792,2026-05-02,House,34,Motion to suspend rules failed. H.J. 1148.
-2022792,2026-05-02,House,35,"Amendment H-8487, yeas 21, nays 57 filed, lost. H.J. 1148."
+2022792,2026-05-02,House,35,"Amendment H-8487, yeas 21, nays 57, filed, lost. H.J. 1148."
 2022792,2026-05-02,House,36,Amendment H-8488 filed. H.J. 1149.
 2022792,2026-05-02,House,37,"Point of order raised on amendment H-8488, ruled not germane. H.J. 1149."
-2022792,2026-05-02,House,38,"Motion to suspend rules for immediate consideration of amendment H-8488, yeas 21, nays 27. H.J. 1149."
+2022792,2026-05-02,House,38,"Motion to suspend rules for immediate consideration of amendment H-8488, yeas 21, nays 57. H.J. 1149."
 2022792,2026-05-02,House,39,Motion to suspend rules failed. H.J. 1150.
 2022792,2026-05-02,House,40,"Amendment H-8489 filed, withdrawn. H.J. 1150."
-2022792,2026-05-02,House,41,"Amendment H-8490, yeas 21, nays 57 filed, lost. H.J. 1150."
+2022792,2026-05-02,House,41,"Amendment H-8490, yeas 21, nays 57, filed, lost. H.J. 1150."
 2022792,2026-05-02,House,42,"Passed House, yeas 57, nays 21. H.J. 1151."
 2022792,2026-05-02,House,43,Explanation of vote. H.J. 1158.
 2022792,2026-05-02,House,44,Immediate message. H.J. 1152.
 2022792,2026-05-03,Senate,45,Message from House. S.J. 1015.
+2022792,2026-05-11,Senate,46,Sent to Secretary of State.
 1938856,2025-01-23,Senate,1,"Introduced, referred to State Government. S.J. 129."
 1938856,2025-01-27,Senate,2,"Subcommittee: Schultz, Blake, and Rozenboom. S.J. 142."
 1938856,2025-01-28,Senate,3,Subcommittee Meeting: 01/29/2025 2:45PM Room G15.
