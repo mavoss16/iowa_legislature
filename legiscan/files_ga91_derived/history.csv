@@ -5974,12 +5974,12 @@ bill_id,date,chamber,sequence,action
 2141130,2026-04-09,House,2,Fiscal note.
 2141130,2026-04-15,House,3,Amendment H-8371 filed. H.J. 921.
 2141130,2026-04-16,House,4,"Amendment H-8373 to amendment H-8371, yeas 27, nays 60, filed, adopted. H.J. 926."
-2141130,2026-05-02,House,5,Explanation of vote. H.J. 1159.
+2141130,2026-05-02,House,5,Explanation of vote. H.J. 1158.
 2141130,2026-04-16,House,6,"Amendment H-8372 to amendment H-8371, yeas 54, nays 34, filed, adopted. H.J. 927."
-2141130,2026-05-02,House,7,Explanation of vote. H.J. 1159.
+2141130,2026-05-02,House,7,Explanation of vote. H.J. 1158.
 2141130,2026-04-16,House,8,"Amendment H-8371 adopted, as amended. H.J. 929."
 2141130,2026-04-16,House,9,"Passed House, yeas 53, nays 34. H.J. 929."
-2141130,2026-05-02,House,10,Explanation of vote. H.J. 1159.
+2141130,2026-05-02,House,10,Explanation of vote. H.J. 1158.
 2141130,2026-04-16,House,11,Immediate message. H.J. 933.
 2141130,2026-04-16,Senate,12,Message from House. S.J. 825.
 2141130,2026-04-16,Senate,13,"Read first time, attached to SF 2501. S.J. 825."
@@ -5996,6 +5996,7 @@ bill_id,date,chamber,sequence,action
 2141130,2026-04-27,Senate,24,Immediate message. S.J. 895.
 2141130,2026-04-28,House,25,Message from Senate. H.J. 1014.
 2141130,2026-05-06,House,26,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/06."
+2141130,2026-05-12,House,27,Signed by Governor. H.J. 05/12.
 2141215,2026-04-06,House,1,"Introduced, placed on Ways and Means calendar. H.J. 808."
 2141215,2026-04-08,House,2,"Passed House, yeas 89, nays 3. H.J. 854."
 2141215,2026-04-08,House,3,Immediate message. H.J. 863.
@@ -6164,7 +6165,7 @@ bill_id,date,chamber,sequence,action
 2143311,2026-05-02,House,9,"Motion to suspend rules for immediate consideration of amendment H-8454 to amendment H-8449, yeas 27, nays 57. H.J. 1103."
 2143311,2026-05-02,House,10,Explanation of vote. H.J. 1159.
 2143311,2026-05-02,House,11,Motion to suspend rules failed. H.J. 1104.
-2143311,2026-05-02,House,12,"Amendment H-8449, yeas 59, nays 26 adopted. H.J. 1104."
+2143311,2026-05-02,House,12,"Amendment H-8449, yeas 59, nays 26, adopted. H.J. 1104."
 2143311,2026-05-02,House,13,Explanation of vote. H.J. 1159.
 2143311,2026-05-02,House,14,"Passed House, yeas 56, nays 29. H.J. 1105."
 2143311,2026-05-02,House,15,Explanation of vote. H.J. 1159.
@@ -6188,11 +6189,11 @@ bill_id,date,chamber,sequence,action
 2143277,2026-04-15,House,2,NOBA: House Full Approps
 2143277,2026-04-28,House,3,"Amendments H-8414, H-8416 and H-8417 filed. H.J. 1032."
 2143277,2026-04-30,House,4,Amendment H-8451 filed. H.J. 1068.
-2143277,2026-05-02,House,5,"Amendment H-8451 to amendment H-8414, yeas 82, nays 3 adopted. H.J. 1107."
+2143277,2026-05-02,House,5,"Amendment H-8451 to amendment H-8414, yeas 82, nays 3, adopted. H.J. 1107."
 2143277,2026-05-02,House,6,Explanation of vote. H.J. 1159.
-2143277,2026-05-02,House,7,"Amendment H-8417 to amendment H-8414, yeas 29, nays 56 lost. H.J. 1107."
+2143277,2026-05-02,House,7,"Amendment H-8417 to amendment H-8414, yeas 29, nays 56, lost. H.J. 1107."
 2143277,2026-05-02,House,8,Explanation of vote. H.J. 1159.
-2143277,2026-05-02,House,9,"Amendment H-8416 to amendment H-8414, yeas 27, nays 58 lost. H.J. 1108."
+2143277,2026-05-02,House,9,"Amendment H-8416 to amendment H-8414, yeas 27, nays 58, lost. H.J. 1108."
 2143277,2026-05-02,House,10,Explanation of vote. H.J. 1159.
 2143277,2026-05-02,House,11,"Amendment H-8414 adopted, as amended. H.J. 1109."
 2143277,2026-05-02,House,12,Explanation of vote. H.J. 1159.
@@ -6226,9 +6227,9 @@ bill_id,date,chamber,sequence,action
 2143382,2026-05-02,House,17,House concurred in Senate amendment H-8471. H.J. 1133.
 2143382,2026-05-02,House,18,"Passed House, yeas 66, nays 18. H.J. 1133."
 2143382,2026-05-02,House,19,Immediate message. H.J. 1134.
-2143382,2026-05-02,House,20,NOBA: Senate Floor
+2143382,2026-05-02,House,20,NOBA: House Floor
 2143382,2026-05-03,Senate,21,Message from House. S.J. 997.
-2143382,2026-05-02,Senate,22,NOBA: House Floor
+2143382,2026-05-02,Senate,22,NOBA: Senate Floor
 2143398,2026-04-15,House,1,"Introduced, placed on Appropriations calendar. H.J. 902."
 2143398,2026-04-16,House,2,NOBA: House Full Approps
 2143398,2026-04-20,House,3,Amendment H-8383 filed. H.J. 953.
@@ -6350,6 +6351,7 @@ bill_id,date,chamber,sequence,action
 2144519,2026-05-02,Senate,16,Immediate message. S.J. 966.
 2144519,2026-05-02,House,17,Message from Senate. H.J. 1111.
 2144519,2026-05-02,House,18,NOBA: House Floor
+2144519,2026-05-12,House,19,NOBA: Final
 2144476,2026-04-21,House,1,"Introduced, placed on Appropriations calendar. H.J. 956."
 2144476,2026-04-21,House,2,Amendment H-8395 filed. H.J. 975.
 2144476,2026-04-21,House,3,NOBA: House Full Approps
@@ -20330,13 +20332,12 @@ bill_id,date,chamber,sequence,action
 2129115,2026-05-01,House,14,Committee amendment H-8462 filed. H.J. 1085.
 2129115,2026-05-01,House,15,Placed on Ways and Means calendar. H.J. 1085.
 2129115,2026-05-01,House,16,NOBA: Senate Floor
-2129115,2026-05-02,House,17,Amendment H-8469 filed. H.J. 1114.
-2129115,2026-05-02,House,18,Amendments H-8462 and H-8469 withdrawn. H.J. 1114.
+2129115,2026-05-02,House,17,Amendment H-8462 withdrawn. H.J. 1114.
+2129115,2026-05-02,House,18,"Amendment H-8469 filed, withdrawn. H.J. 1114."
 2129115,2026-05-02,House,19,"Passed House, yeas 81, nays 4. H.J. 1115."
 2129115,2026-05-02,House,20,Explanations of votes. H.J. 1159.
-2129115,2026-05-02,House,21,Explanation of vote. H.J. 1160.
-2129115,2026-05-02,House,22,Immediate message. H.J. 1118.
-2129115,2026-05-02,Senate,23,Message from House. S.J. 979.
+2129115,2026-05-02,House,21,Immediate message. H.J. 1118.
+2129115,2026-05-02,Senate,22,Message from House. S.J. 979.
 2129607,2026-03-05,Senate,1,"Introduced, placed on Appropriations calendar. S.J. 489."
 2129607,2026-03-05,Senate,2,"Committee report, approving bill. S.J. 490."
 2129607,2026-03-09,Senate,3,NOBA: Senate Full Approps
@@ -20538,6 +20539,7 @@ bill_id,date,chamber,sequence,action
 2140762,2026-05-02,House,16,"Passed House, yeas 85, nays 1. H.J. 1130."
 2140762,2026-05-02,House,17,Immediate message. H.J. 1131.
 2140762,2026-05-02,Senate,18,Message from House. S.J. 996.
+2140762,2026-05-11,Senate,19,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
 2140794,2026-04-02,Senate,1,"Introduced, placed on Appropriations calendar. S.J. 712."
 2140794,2026-04-02,Senate,2,"Committee report, approving bill. S.J. 713."
 2140794,2026-04-03,Senate,3,NOBA: Senate Full Approps
@@ -20618,6 +20620,7 @@ bill_id,date,chamber,sequence,action
 2141962,2026-05-02,House,10,"Passed House, yeas 59, nays 26. H.J. 1137."
 2141962,2026-05-02,House,11,Immediate message. H.J. 1138.
 2141962,2026-05-03,Senate,12,Message from House. S.J. 1001.
+2141962,2026-05-12,Senate,13,NOBA: Final
 2141985,2026-04-09,Senate,1,"Introduced, placed on Appropriations calendar. S.J. 767."
 2141985,2026-04-09,Senate,2,"Committee report, approving bill. S.J. 769."
 2141985,2026-04-10,Senate,3,NOBA: Senate Full Approps
@@ -20682,13 +20685,13 @@ bill_id,date,chamber,sequence,action
 2143043,2026-04-21,House,17,Placed on Ways and Means calendar. H.J. 975.
 2143043,2026-04-30,House,18,Amendment H-8450 filed. H.J. 1068.
 2143043,2026-05-02,House,19,Amendment H-8450 withdrawn. H.J. 1125.
-2143043,2026-05-02,House,20,"Amendment H-8477, yeas 25, nays 61 filed, lost. H.J. 1125."
-2143043,2026-05-02,House,21,Explanation of vote. H.J. 1160.
+2143043,2026-05-02,House,20,"Amendment H-8477, yeas 25, nays 61, filed, lost. H.J. 1125."
+2143043,2026-05-02,House,21,Explanation of vote. H.J. 1159.
 2143043,2026-05-02,House,22,"Amendment H-8476 filed, adopted. H.J. 1126."
 2143043,2026-05-02,House,23,"Amendment H-8474 filed, adopted. H.J. 1126."
 2143043,2026-05-02,House,24,"Amendment H-8475 filed, adopted. H.J. 1126."
 2143043,2026-05-02,House,25,"Passed House, yeas 65, nays 21. H.J. 1126."
-2143043,2026-05-02,House,26,Explanation of vote. H.J. 1160.
+2143043,2026-05-02,House,26,Explanation of vote. H.J. 1159.
 2143043,2026-05-02,House,27,Immediate message. H.J. 1127.
 2143043,2026-05-02,Senate,28,"Message from House, with amendment S-5256. S.J. 990."
 2143043,2026-05-02,Senate,29,Senate concurred with S-5256. S.J. 993.
@@ -22463,9 +22466,9 @@ bill_id,date,chamber,sequence,action
 1987216,2026-05-01,House,22,Placed on Ways and Means calendar. H.J. 1084.
 1987216,2026-05-02,House,23,"Passed House, yeas 58, nays 27. H.J. 1116."
 1987216,2026-05-02,House,24,Explanations of votes. H.J. 1159.
-1987216,2026-05-02,House,25,Explanation of vote. H.J. 1160.
-1987216,2026-05-02,House,26,Immediate message. H.J. 1118.
-1987216,2026-05-02,Senate,27,Message from House. S.J. 979.
+1987216,2026-05-02,House,25,Immediate message. H.J. 1118.
+1987216,2026-05-02,Senate,26,Message from House. S.J. 979.
+1987216,2026-05-11,Senate,27,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
 1921750,2025-01-15,Senate,1,"Introduced, referred to State Government. S.J. 88."
 1921750,2025-01-17,Senate,2,Rereferred to Judiciary. S.J. 109.
 1921750,2025-01-23,Senate,3,"Subcommittee: Reichman, Blake, and Taylor. S.J. 135."
