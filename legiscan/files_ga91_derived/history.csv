@@ -430,6 +430,7 @@ bill_id,date,chamber,sequence,action
 2025021,2026-04-30,Senate,24,"Passed Senate, yeas 44, nays 0. S.J. 933."
 2025021,2026-04-30,Senate,25,Immediate message. S.J. 933.
 2025021,2026-04-30,House,26,Message from Senate. H.J. 1049.
+2025021,2026-05-13,House,27,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/13."
 2024987,2025-04-17,House,1,"Introduced, placed on Ways and Means calendar. H.J. 988."
 2024987,2025-05-15,House,2,Rereferred to Ways and Means. H.J. 1222.
 1933889,2025-01-22,House,1,"Introduced, referred to Education. H.J. 109."
@@ -3087,6 +3088,7 @@ bill_id,date,chamber,sequence,action
 2110375,2026-04-02,Senate,30,Message from House. S.J. 710.
 2110375,2026-04-16,House,31,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 933."
 2110375,2026-04-16,House,32,Signed by Governor. H.J. 950.
+2110375,2026-05-13,Senate,33,Fiscal note.
 2110286,2026-02-06,House,1,"Introduced, placed on calendar. H.J. 228."
 2110279,2026-02-06,House,1,"Introduced, placed on calendar. H.J. 228."
 1959019,2025-02-06,House,1,"Introduced, referred to Veterans Affairs. H.J. 256."
@@ -3155,6 +3157,7 @@ bill_id,date,chamber,sequence,action
 2111729,2026-04-30,Senate,19,Message from House. S.J. 941.
 2111729,2026-05-11,House,20,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/11."
 2111729,2026-05-11,House,21,Signed by Governor. H.J. 05/11.
+2111729,2026-05-13,Senate,22,Fiscal note.
 2111655,2026-02-09,House,1,"Introduced, placed on calendar. H.J. 233."
 2111655,2026-02-26,House,2,"Passed House, yeas 90, nays 0. H.J. 451."
 2111655,2026-02-26,House,3,Immediate message. H.J. 460.
@@ -4162,6 +4165,7 @@ bill_id,date,chamber,sequence,action
 2117663,2026-05-01,Senate,14,"Passed Senate, yeas 44, nays 0. S.J. 951."
 2117663,2026-05-01,Senate,15,Immediate message. S.J. 952.
 2117663,2026-05-01,House,16,Message from Senate. H.J. 1070.
+2117663,2026-05-13,House,17,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/13."
 2117655,2026-02-16,House,1,"Introduced, placed on calendar. H.J. 303."
 2117655,2026-02-24,House,2,Amendment H-8031 filed. H.J. 414.
 2117655,2026-02-25,House,3,Amendment H-8052 filed. H.J. 436.
@@ -4505,6 +4509,7 @@ bill_id,date,chamber,sequence,action
 2117679,2026-05-01,House,22,Explanation of vote. H.J. 1082.
 2117679,2026-04-22,Senate,23,Message from House. S.J. 877.
 2117679,2026-05-06,House,24,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/06."
+2117679,2026-05-14,Senate,25,Fiscal note.
 2117637,2026-02-16,House,1,"Introduced, placed on calendar. H.J. 309."
 2117637,2026-03-03,House,2,Amendment H-8110 filed. H.J. 525.
 2117637,2026-03-03,House,3,Amendment H-8122 filed. H.J. 526.
@@ -4813,6 +4818,7 @@ bill_id,date,chamber,sequence,action
 2119890,2026-04-21,Senate,22,Immediate message. S.J. 855.
 2119890,2026-04-21,House,23,Message from Senate. H.J. 955.
 2119890,2026-05-06,House,24,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/06."
+2119890,2026-05-14,House,25,Fiscal note.
 2119931,2026-02-19,House,1,"Introduced, placed on calendar. H.J. 344."
 2119931,2026-03-11,House,2,Fiscal note.
 2119931,2026-03-12,House,3,"Passed House, yeas 83, nays 8. H.J. 658."
@@ -6126,6 +6132,7 @@ bill_id,date,chamber,sequence,action
 2142404,2026-05-02,House,18,Explanation of vote. H.J. 1159.
 2142404,2026-05-02,House,19,Immediate message. H.J. 1127.
 2142404,2026-05-02,Senate,20,Message from House. S.J. 991.
+2142404,2026-05-13,House,21,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/13."
 2142526,2026-04-13,House,1,"Introduced, placed on Ways and Means calendar. H.J. 876."
 2142526,2026-04-16,House,2,Fiscal note.
 2142526,2026-04-16,House,3,Amendment H-8379 filed. H.J. 934.
@@ -17679,6 +17686,7 @@ bill_id,date,chamber,sequence,action
 2094475,2026-03-23,Senate,15,Message from House. S.J. 624.
 2094475,2026-04-09,Senate,16,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor. S.J. 771."
 2094475,2026-04-09,Senate,17,Signed by Governor. S.J. 772.
+2094475,2026-05-13,Senate,18,Fiscal note.
 2094380,2026-01-27,Senate,1,"Introduced, placed on calendar. S.J. 143."
 2094380,2026-01-27,Senate,2,"Committee report, approving bill. S.J. 153."
 2094380,2026-03-19,Senate,3,Placed on calendar under unfinished business. S.J. 599.
@@ -18813,6 +18821,7 @@ bill_id,date,chamber,sequence,action
 2114305,2026-04-09,Senate,16,Message from House. S.J. 762.
 2114305,2026-05-05,Senate,17,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
 2114305,2026-05-06,Senate,18,Signed by Governor.
+2114305,2026-05-14,Senate,19,Fiscal note.
 2114296,2026-02-11,Senate,1,"Introduced, placed on calendar. S.J. 252."
 2114296,2026-02-11,Senate,2,"Committee report, approving bill. S.J. 260."
 2114296,2026-03-09,Senate,3,Attached to HF 2202. S.J. 492.
@@ -20561,6 +20570,7 @@ bill_id,date,chamber,sequence,action
 2140762,2026-05-02,House,17,Immediate message. H.J. 1131.
 2140762,2026-05-02,Senate,18,Message from House. S.J. 996.
 2140762,2026-05-11,Senate,19,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2140762,2026-05-13,Senate,20,NOBA: Final
 2140794,2026-04-02,Senate,1,"Introduced, placed on Appropriations calendar. S.J. 712."
 2140794,2026-04-02,Senate,2,"Committee report, approving bill. S.J. 713."
 2140794,2026-04-03,Senate,3,NOBA: Senate Full Approps
@@ -20744,6 +20754,7 @@ bill_id,date,chamber,sequence,action
 2143219,2026-05-02,House,16,Immediate message. H.J. 1118.
 2143219,2026-05-02,Senate,17,Message from House. S.J. 979.
 2143219,2026-05-11,Senate,18,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2143219,2026-05-14,Senate,19,Fiscal note.
 2143211,2026-04-15,Senate,1,"Introduced, placed on Ways and Means calendar. S.J. 804."
 2143211,2026-04-15,Senate,2,"Committee report, approving bill. S.J. 807."
 2143211,2026-04-22,Senate,3,"Passed Senate, yeas 44, nays 0. S.J. 865."
