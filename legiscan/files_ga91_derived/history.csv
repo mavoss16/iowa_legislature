@@ -369,6 +369,7 @@ bill_id,date,chamber,sequence,action
 2024925,2026-04-23,House,24,Immediate message. H.J. 996.
 2024925,2026-04-27,Senate,25,Message from House. S.J. 881.
 2024925,2026-05-11,House,26,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/11."
+2024925,2026-05-22,Senate,27,Fiscal note.
 2024864,2025-04-17,House,1,"Introduced, placed on Ways and Means calendar. H.J. 987."
 2024864,2025-04-22,House,2,Fiscal note.
 2024864,2025-05-15,House,3,Rereferred to Ways and Means. H.J. 1222.
@@ -5415,6 +5416,7 @@ bill_id,date,chamber,sequence,action
 2122543,2026-04-27,House,45,Message from Senate. H.J. 1010.
 2122543,2026-05-11,House,46,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/11."
 2122543,2026-05-20,House,47,Signed by Governor. H.J. 05/20.
+2122543,2026-05-22,House,48,Fiscal note.
 2122515,2026-02-23,House,1,"Introduced, placed on calendar. H.J. 376."
 2122346,2026-02-23,House,1,"Introduced, placed on calendar. H.J. 376."
 2122346,2026-03-03,House,2,Amendment H-8123 filed. H.J. 526.
@@ -18333,7 +18335,7 @@ bill_id,date,chamber,sequence,action
 2108522,2026-02-10,Senate,6,Immediate message. S.J. 231.
 2108522,2026-02-11,House,7,Message from Senate. H.J. 255.
 2108522,2026-02-11,House,8,"Read first time, referred to Appropriations. H.J. 260."
-2108522,2026-02-11,House,9,"Subcommittee: Gehlbach, Matson and Stone. H.J. 263."
+2108522,2026-02-11,House,9,"Subcommittee: Gehlbach, Matson and Stone. H.J. 262."
 2108522,2026-02-12,House,10,Fiscal note.
 2108522,2026-02-12,House,11,Subcommittee Meeting: 02/16/2026 11:30AM RM 103.
 2108522,2026-02-16,House,12,Subcommittee recommends passage.
@@ -18348,7 +18350,7 @@ bill_id,date,chamber,sequence,action
 2108522,2026-02-19,House,21,Amendment H-8008 ruled out of order. H.J. 353.
 2108522,2026-02-19,House,22,"Amendment H-8004 adopted, as amended. H.J. 353."
 2108522,2026-02-19,House,23,"Passed House, yeas 58, nays 35. H.J. 354."
-2108522,2026-02-23,House,24,Explanation of vote. H.J. 395.
+2108522,2026-02-19,House,24,Explanation of vote. H.J. 395.
 2108522,2026-02-19,House,25,Immediate message. H.J. 355.
 2108522,2026-02-23,Senate,26,Message from House. S.J. 343.
 2108522,2026-02-23,Senate,27,Amendment S-5018 filed. S.J. 343.
@@ -18359,6 +18361,7 @@ bill_id,date,chamber,sequence,action
 2108522,2026-02-23,House,32,Message from Senate. H.J. 379.
 2108522,2026-02-26,Senate,33,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor. S.J. 420."
 2108522,2026-02-26,Senate,34,Signed by Governor. S.J. 420.
+2108522,2026-05-22,House,35,Fiscal note.
 2108752,2026-02-05,Senate,1,"Introduced, placed on calendar. S.J. 208."
 2108752,2026-02-05,Senate,2,"Committee report, approving bill. S.J. 219."
 2108752,2026-03-03,Senate,3,Attached to HF 2543. S.J. 440.
@@ -18680,6 +18683,7 @@ bill_id,date,chamber,sequence,action
 2111663,2026-04-20,House,48,Message from Senate. H.J. 948.
 2111663,2026-05-05,House,49,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
 2111663,2026-05-19,House,50,Signed by Governor.
+2111663,2026-05-22,House,51,Fiscal note.
 2111746,2026-02-09,Senate,1,"Introduced, placed on calendar. S.J. 222."
 2111746,2026-02-09,Senate,2,"Committee report, approving bill. S.J. 226."
 2111746,2026-03-03,Senate,3,Fiscal note.
@@ -20683,6 +20687,7 @@ bill_id,date,chamber,sequence,action
 2141953,2026-05-02,House,35,Immediate message. H.J. 1110.
 2141953,2026-05-02,Senate,36,Message from House. S.J. 971.
 2141953,2026-05-18,Senate,37,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2141953,2026-05-19,Senate,38,Fiscal note.
 2141950,2026-04-09,Senate,1,"Introduced, placed on Appropriations calendar. S.J. 765."
 2141950,2026-04-09,Senate,2,"Committee report, approving bill. S.J. 768."
 2141950,2026-04-09,Senate,3,NOBA: Senate Full Approps
@@ -20898,6 +20903,7 @@ bill_id,date,chamber,sequence,action
 2143373,2026-04-21,Senate,7,Amendment S-5197 out of order. S.J. 856.
 2143373,2026-04-21,Senate,8,HF 2766 substituted. S.J. 856.
 2143373,2026-04-21,Senate,9,Withdrawn. S.J. 857.
+2143373,2026-05-22,Senate,10,Fiscal note.
 1918927,2025-01-14,Senate,1,"Introduced, referred to Transportation. S.J. 66."
 1918927,2025-01-15,Senate,2,"Subcommittee: Shipley, Koelker, and Winckler. S.J. 90."
 1918927,2025-01-27,Senate,3,Subcommittee Meeting: 01/28/2025 12:30PM Senate Lounge.
