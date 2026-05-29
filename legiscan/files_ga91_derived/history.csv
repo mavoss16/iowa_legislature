@@ -3813,6 +3813,7 @@ bill_id,date,chamber,sequence,action
 2117573,2026-05-02,Senate,16,Immediate message. S.J. 995.
 2117573,2026-05-02,House,17,Message from Senate. H.J. 1131.
 2117573,2026-05-13,House,18,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/13."
+2117573,2026-05-28,House,19,Fiscal note.
 2117542,2026-02-16,House,1,"Introduced, placed on calendar. H.J. 298."
 2117542,2026-03-02,House,2,Amendment H-8088 filed. H.J. 486.
 2117542,2026-03-03,House,3,"Amendment H-8088, yeas 32, nays 64, lost. H.J. 500."
@@ -18534,6 +18535,7 @@ bill_id,date,chamber,sequence,action
 2108996,2026-04-29,House,39,Immediate message. H.J. 1042.
 2108996,2026-04-29,Senate,40,Message from House. S.J. 924.
 2108996,2026-05-18,House,41,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2108996,2026-05-28,House,42,Fiscal note.
 2109350,2026-02-05,Senate,1,"Introduced, placed on calendar. S.J. 211."
 2109350,2026-02-05,Senate,2,"Committee report, approving bill. S.J. 216."
 2109350,2026-02-23,Senate,3,"Amendment S-5022 filed, lost. S.J. 351."
@@ -19981,6 +19983,7 @@ bill_id,date,chamber,sequence,action
 2122171,2026-04-30,House,37,Immediate message. H.J. 1066.
 2122171,2026-04-30,Senate,38,Message from House. S.J. 940.
 2122171,2026-05-11,Senate,39,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2122171,2026-05-28,Senate,40,Fiscal note.
 2122189,2026-02-23,Senate,1,"Introduced, placed on calendar. S.J. 355."
 2122189,2026-02-23,Senate,2,"Committee report, approving bill. S.J. 367."
 2122189,2026-03-02,Senate,3,Attached to HF 2562. S.J. 423.
@@ -20332,6 +20335,7 @@ bill_id,date,chamber,sequence,action
 2122481,2026-05-03,Senate,25,Immediate message. S.J. 1004.
 2122481,2026-05-02,House,26,Message from Senate. H.J. 1139.
 2122481,2026-05-11,House,27,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2122481,2026-05-28,House,28,Fiscal note.
 2122531,2026-02-23,Senate,1,"Introduced, placed on calendar. S.J. 360."
 2122531,2026-02-23,Senate,2,"Committee report, approving bill. S.J. 364."
 2122531,2026-03-03,Senate,3,Attached to HF 2232. S.J. 439.
