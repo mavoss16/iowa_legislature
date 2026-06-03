@@ -2452,6 +2452,7 @@ bill_id,date,chamber,sequence,action
 2102653,2026-03-04,Senate,10,Immediate message. S.J. 473.
 2102653,2026-03-04,House,11,Message from Senate. H.J. 551.
 2102653,2026-05-06,House,12,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/06."
+2102653,2026-06-01,House,13,Signed by Governor. H.J. 06/01.
 2102525,2026-01-30,House,1,"Introduced, placed on calendar. H.J. 187."
 2102525,2026-03-02,House,2,"Passed House, yeas 90, nays 0. H.J. 473."
 2102525,2026-03-02,House,3,Immediate message. H.J. 483.
@@ -5653,6 +5654,7 @@ bill_id,date,chamber,sequence,action
 2122637,2026-04-07,House,14,Message from Senate. H.J. 740.
 2122637,2026-04-30,House,15,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 1067."
 2122637,2026-04-30,House,16,Signed by Governor. H.J. 1067.
+2122637,2026-06-02,House,17,Fiscal note.
 2122622,2026-02-23,House,1,"Introduced, placed on calendar. H.J. 382."
 2122622,2026-03-19,House,2,Placed on calendar under unfinished business. H.J. 691.
 2122622,2026-03-26,House,3,Amendment H-8266 filed. H.J. 763.
@@ -6095,6 +6097,7 @@ bill_id,date,chamber,sequence,action
 2141387,2026-04-30,House,29,Message from Senate. H.J. 1061.
 2141387,2026-05-18,House,30,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/18."
 2141387,2026-05-20,House,31,Fiscal note.
+2141387,2026-06-01,House,32,Signed by Governor. H.J. 06/01.
 2141956,2026-04-09,House,1,"Introduced, placed on Appropriations calendar. H.J. 869."
 2141956,2026-04-16,House,2,NOBA: House Full Approps
 2141956,2026-04-21,House,3,"Passed House, yeas 93, nays 0. H.J. 970."
@@ -6286,6 +6289,7 @@ bill_id,date,chamber,sequence,action
 2143382,2026-05-03,Senate,21,Message from House. S.J. 997.
 2143382,2026-05-02,Senate,22,NOBA: House Floor
 2143382,2026-05-18,House,23,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/18."
+2143382,2026-06-01,House,24,Signed by Governor. H.J. 06/01.
 2143398,2026-04-15,House,1,"Introduced, placed on Appropriations calendar. H.J. 902."
 2143398,2026-04-16,House,2,NOBA: House Full Approps
 2143398,2026-04-20,House,3,Amendment H-8383 filed. H.J. 953.
@@ -10406,6 +10410,7 @@ bill_id,date,chamber,sequence,action
 1994573,2026-04-30,House,26,Immediate message. H.J. 1066.
 1994573,2026-04-30,Senate,27,Message from House. S.J. 941.
 1994573,2026-05-13,House,28,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/13."
+1994573,2026-06-01,House,29,Signed by Governor. H.J. 06/01.
 1994627,2025-03-07,House,1,"Introduced, placed on calendar. H.J. 564."
 1994627,2025-03-18,House,2,"Passed House, yeas 64, nays 33. H.J. 716."
 1994627,2025-03-18,House,3,Immediate message. H.J. 717.
@@ -17581,6 +17586,7 @@ bill_id,date,chamber,sequence,action
 2090046,2026-03-24,House,16,Immediate message. H.J. 742.
 2090046,2026-03-24,Senate,17,Message from House. S.J. 628.
 2090046,2026-05-05,Senate,18,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2090046,2026-06-01,Senate,19,Signed by Governor.
 2090353,2026-01-22,Senate,1,"Introduced, placed on calendar. S.J. 128."
 2090353,2026-01-22,Senate,2,"Committee report, approving bill. S.J. 135."
 2090335,2026-01-22,Senate,1,"Introduced, placed on calendar. S.J. 129."
@@ -18228,10 +18234,11 @@ bill_id,date,chamber,sequence,action
 2107352,2026-03-18,House,12,Placed on calendar. H.J. 688.
 2107352,2026-03-26,House,13,Placed on calendar under unfinished business. H.J. 760.
 2107352,2026-04-16,House,14,"Passed House, yeas 81, nays 6. H.J. 924."
-2107352,2026-05-02,House,15,Explanation of vote. H.J. 1159.
+2107352,2026-05-02,House,15,Explanation of vote. H.J. 1158.
 2107352,2026-04-16,House,16,Immediate message. H.J. 933.
 2107352,2026-04-16,Senate,17,Message from House. S.J. 825.
 2107352,2026-05-05,Senate,18,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2107352,2026-06-01,Senate,19,Signed by Governor.
 1957496,2025-02-05,Senate,1,"Introduced, referred to Ways and Means. S.J. 202."
 1957496,2025-02-11,Senate,2,"Subcommittee: Klimesh, Bisignano, and Dawson. S.J. 243."
 1957496,2025-03-24,Senate,3,Subcommittee Meeting: 03/25/2025 11:00AM Room 315.
@@ -18427,6 +18434,7 @@ bill_id,date,chamber,sequence,action
 2108792,2026-04-06,Senate,21,Immediate message. S.J. 719.
 2108792,2026-04-06,House,22,Message from Senate. H.J. 810.
 2108792,2026-05-05,House,23,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2108792,2026-06-02,House,24,Vetoed by Governor.
 2108506,2026-02-05,Senate,1,"Introduced, placed on calendar. S.J. 209."
 2108506,2026-02-05,Senate,2,"Committee report, approving bill. S.J. 220."
 2108506,2026-02-16,Senate,3,Fiscal note.
@@ -18595,6 +18603,7 @@ bill_id,date,chamber,sequence,action
 2109490,2026-04-16,Senate,23,Immediate message. S.J. 818.
 2109490,2026-04-16,House,24,Message from Senate. H.J. 932.
 2109490,2026-05-05,House,25,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2109490,2026-06-02,House,26,Fiscal note.
 2109461,2026-02-05,Senate,1,"Introduced, placed on calendar. S.J. 211."
 2109461,2026-02-05,Senate,2,"Committee report, approving bill. S.J. 217."
 2109461,2026-03-04,Senate,3,Attached to HF 2724. S.J. 462.
@@ -19087,6 +19096,7 @@ bill_id,date,chamber,sequence,action
 2115052,2026-04-21,Senate,23,Immediate message. S.J. 851.
 2115052,2026-04-21,House,24,Message from Senate. H.J. 955.
 2115052,2026-05-05,House,25,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2115052,2026-06-02,House,26,Vetoed by Governor.
 1918888,2025-01-14,Senate,1,"Introduced, referred to Transportation. S.J. 66."
 1918888,2025-01-15,Senate,2,"Subcommittee: Shipley, Webster, and Winckler. S.J. 90."
 1918888,2025-01-23,Senate,3,Subcommittee Meeting: 01/27/2025 2:30PM Senate Lounge.
@@ -19123,6 +19133,7 @@ bill_id,date,chamber,sequence,action
 2115495,2026-04-06,House,12,Immediate message. H.J. 819.
 2115495,2026-04-07,Senate,13,Message from House. S.J. 731.
 2115495,2026-05-05,Senate,14,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2115495,2026-06-01,Senate,15,Signed by Governor.
 2115618,2026-02-12,Senate,1,"Introduced, referred to Natural Resources and Environment. S.J. 271."
 2115618,2026-02-17,Senate,2,"Subcommittee: Shipley, Staed, and Zumbach. S.J. 304."
 2115226,2026-02-12,Senate,1,"Introduced, referred to Agriculture. S.J. 271."
@@ -19231,6 +19242,7 @@ bill_id,date,chamber,sequence,action
 2115570,2026-04-15,Senate,19,Message from House. S.J. 789.
 2115570,2026-05-05,Senate,20,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
 2115570,2026-05-13,Senate,21,Fiscal note.
+2115570,2026-06-02,Senate,22,Vetoed by Governor.
 2115980,2026-02-12,Senate,1,"Introduced, referred to Education. S.J. 273."
 2115980,2026-02-16,Senate,2,"Subcommittee: Sinclair, Rozenboom, and Trone Garriott. S.J. 295."
 2116005,2026-02-12,Senate,1,"Introduced, referred to Commerce. S.J. 273."
@@ -20086,6 +20098,7 @@ bill_id,date,chamber,sequence,action
 2122122,2026-04-29,Senate,34,Message from House. S.J. 924.
 2122122,2026-05-18,Senate,35,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
 2122122,2026-05-20,Senate,36,Fiscal note.
+2122122,2026-06-01,Senate,37,Signed by Governor.
 2122185,2026-02-23,Senate,1,"Introduced, placed on calendar. S.J. 356."
 2122185,2026-02-23,Senate,2,"Committee report, approving bill. S.J. 373."
 2122185,2026-03-03,Senate,3,"Passed Senate, yeas 43, nays 1. S.J. 453."
@@ -20098,6 +20111,7 @@ bill_id,date,chamber,sequence,action
 2122185,2026-03-31,House,10,Immediate message. H.J. 783.
 2122185,2026-03-31,Senate,11,Message from House. S.J. 687.
 2122185,2026-05-05,Senate,12,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2122185,2026-06-01,Senate,13,Signed by Governor.
 1963662,2025-02-10,Senate,1,"Introduced, referred to Education. S.J. 216."
 1963662,2025-02-11,Senate,2,"Subcommittee: Green, Gruenhagen, and Quirmbach."
 1963662,2025-02-18,Senate,3,Subcommittee Meeting: 02/19/2025 2:00PM Room 217 Conference Room.
@@ -20336,6 +20350,7 @@ bill_id,date,chamber,sequence,action
 2122481,2026-05-02,House,26,Message from Senate. H.J. 1139.
 2122481,2026-05-11,House,27,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
 2122481,2026-05-28,House,28,Fiscal note.
+2122481,2026-06-02,House,29,Vetoed by Governor.
 2122531,2026-02-23,Senate,1,"Introduced, placed on calendar. S.J. 360."
 2122531,2026-02-23,Senate,2,"Committee report, approving bill. S.J. 364."
 2122531,2026-03-03,Senate,3,Attached to HF 2232. S.J. 439.
@@ -20441,6 +20456,7 @@ bill_id,date,chamber,sequence,action
 2129115,2026-05-02,House,21,Immediate message. H.J. 1118.
 2129115,2026-05-02,Senate,22,Message from House. S.J. 979.
 2129115,2026-05-18,Senate,23,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2129115,2026-06-01,Senate,24,Signed by Governor.
 2129607,2026-03-05,Senate,1,"Introduced, placed on Appropriations calendar. S.J. 489."
 2129607,2026-03-05,Senate,2,"Committee report, approving bill. S.J. 490."
 2129607,2026-03-09,Senate,3,NOBA: Senate Full Approps
@@ -20610,6 +20626,7 @@ bill_id,date,chamber,sequence,action
 2137637,2026-05-01,House,26,Message from Senate. H.J. 1070.
 2137637,2026-05-01,House,27,NOBA: House Floor
 2137637,2026-05-11,House,28,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2137637,2026-06-01,House,29,Signed by Governor.
 2138027,2026-03-25,Senate,1,"Introduced, placed on Appropriations calendar. S.J. 645."
 2138027,2026-03-25,Senate,2,"Committee report, approving bill. S.J. 646."
 2138027,2026-03-25,Senate,3,Attached to HF 2617. S.J. 646.
@@ -20813,6 +20830,8 @@ bill_id,date,chamber,sequence,action
 2143043,2026-05-02,Senate,31,Immediate message. S.J. 994.
 2143043,2026-05-02,House,32,Message from Senate. H.J. 1131.
 2143043,2026-05-18,House,33,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2143043,2026-06-01,House,34,Signed by Governor.
+2143043,2026-06-02,House,35,NOBA: Final
 2143227,2026-04-15,Senate,1,"Introduced, placed on Ways and Means calendar. S.J. 804."
 2143227,2026-04-15,Senate,2,"Committee report, approving bill. S.J. 806."
 2143227,2026-04-20,Senate,3,"Passed Senate, yeas 44, nays 0. S.J. 834."
@@ -20852,6 +20871,7 @@ bill_id,date,chamber,sequence,action
 2143211,2026-05-02,House,11,Immediate message. H.J. 1127.
 2143211,2026-05-02,Senate,12,Message from House. S.J. 990.
 2143211,2026-05-11,Senate,13,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2143211,2026-06-01,Senate,14,Signed by Governor.
 2143187,2026-04-15,Senate,1,"Introduced, placed on Ways and Means calendar. S.J. 804."
 2143187,2026-04-15,Senate,2,"Committee report, approving bill. S.J. 807."
 2143204,2026-04-15,Senate,1,"Introduced, placed on Ways and Means calendar. S.J. 804."
@@ -21205,6 +21225,7 @@ bill_id,date,chamber,sequence,action
 1966627,2026-04-23,House,29,Immediate message. H.J. 996.
 1966627,2026-04-27,Senate,30,Message from House. S.J. 880.
 1966627,2026-05-05,Senate,31,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+1966627,2026-06-01,Senate,32,Signed by Governor.
 1966279,2025-02-12,Senate,1,"Introduced, placed on calendar. S.J. 251."
 1966279,2025-02-12,Senate,2,"Committee report, approving bill. S.J. 256."
 1966279,2025-02-25,Senate,3,"Passed Senate, yeas 41, nays 0. S.J. 346."
@@ -21910,6 +21931,7 @@ bill_id,date,chamber,sequence,action
 1975909,2026-04-22,Senate,31,Immediate message. S.J. 869.
 1975909,2026-04-22,House,32,Message from Senate. H.J. 977.
 1975909,2026-05-05,House,33,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+1975909,2026-06-01,House,34,Signed by Governor.
 1975998,2025-02-19,Senate,1,"Introduced, placed on calendar. S.J. 312."
 1975998,2025-02-19,Senate,2,"Committee report, approving bill. S.J. 318."
 1975998,2025-02-20,Senate,3,Referred to Ways and Means. S.J. 319.
@@ -24277,6 +24299,8 @@ bill_id,date,chamber,sequence,action
 2025776,2026-05-02,Senate,26,Immediate message. S.J. 987.
 2025776,2026-05-02,House,27,Message from Senate. H.J. 1128.
 2025776,2026-05-18,House,28,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor."
+2025776,2026-06-01,House,29,Signed by Governor.
+2025776,2026-06-02,House,30,Fiscal note.
 1923381,2025-01-16,Senate,1,"Introduced, referred to Education. S.J. 106."
 1923381,2025-01-28,Senate,2,"Subcommittee: Evans, Taylor, and Winckler. S.J. 151."
 1923381,2025-02-03,Senate,3,Subcommittee Meeting: 02/05/2025 10:30AM Room 217 Conference Room.
