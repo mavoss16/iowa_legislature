@@ -2500,6 +2500,7 @@ bill_id,date,chamber,sequence,action
 2102585,2026-03-04,Senate,7,Message from House. S.J. 460.
 2102585,2026-03-04,Senate,8,"Read first time, attached to SF 2413. S.J. 460."
 2102585,2026-03-19,Senate,9,Placed on calendar under unfinished business. S.J. 599.
+2102585,2026-03-05,Senate,10,Fiscal note.
 2102527,2026-01-30,House,1,"Introduced, placed on calendar. H.J. 189."
 2102527,2026-02-04,House,2,Amendment H-8003 filed. H.J. 210.
 2102527,2026-03-12,House,3,Amendment H-8003 adopted. H.J. 662.
@@ -4863,6 +4864,7 @@ bill_id,date,chamber,sequence,action
 2119931,2026-05-02,House,11,Message from Senate. H.J. 1118.
 2119931,2026-05-13,House,12,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/13."
 2119931,2026-06-02,House,13,Signed by Governor. H.J. 06/02.
+2119931,2026-06-02,House,14,Fiscal note.
 2119965,2026-02-19,House,1,"Introduced, placed on calendar. H.J. 344."
 2119967,2026-02-19,House,1,"Introduced, referred to Judiciary. H.J. 345."
 2119929,2026-02-19,House,1,"Introduced, placed on calendar. H.J. 345."
