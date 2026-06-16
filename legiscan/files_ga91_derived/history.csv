@@ -4691,7 +4691,7 @@ bill_id,date,chamber,sequence,action
 2118821,2026-03-10,Senate,5,Message from House. S.J. 528.
 2118821,2026-03-10,Senate,6,"Read first time, referred to Health and Human Services. S.J. 528."
 2118821,2026-03-11,Senate,7,"Subcommittee: Warme, Sweeney, and Trone Garriott. S.J. 555."
-2118821,2026-03-11,Senate,8,Subcommittee Meeting: [].
+2118821,2026-03-11,Senate,8,Subcommittee Meeting: 03/12/2026 8:30AM Room 217 Conference Room.
 2118821,2026-03-12,Senate,9,Subcommittee recommends passage.
 2118821,2026-03-12,Senate,10,"Committee report, recommending passage. S.J. 562."
 2118821,2026-03-12,Senate,11,Placed on calendar.
@@ -4699,8 +4699,8 @@ bill_id,date,chamber,sequence,action
 2118821,2026-04-15,Senate,13,"Passed Senate, yeas 47, nays 0. S.J. 798."
 2118821,2026-04-15,Senate,14,Immediate message. S.J. 801.
 2118821,2026-04-15,House,15,Message from Senate. H.J. 901.
-2118821,2026-05-06,House,16,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/06."
-2118821,2026-05-19,House,17,Signed by Governor. H.J. 05/19.
+2118821,2026-05-06,House,16,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 1164."
+2118821,2026-05-19,House,17,Signed by Governor. H.J. 1167.
 2118816,2026-02-18,House,1,"Introduced, referred to Transportation. H.J. 331."
 2118873,2026-02-18,House,1,"Introduced, placed on calendar. H.J. 331."
 2118792,2026-02-18,House,1,"Introduced, referred to Appropriations. H.J. 331."
@@ -5317,7 +5317,7 @@ bill_id,date,chamber,sequence,action
 2122363,2026-03-31,Senate,11,Immediate message. S.J. 691.
 2122363,2026-04-01,House,12,Message from Senate. H.J. 787.
 2122363,2026-05-06,House,13,"Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 1164."
-2122363,2026-06-02,House,14,Vetoed by Governor. H.J. 1182.
+2122363,2026-06-02,House,14,Vetoed by Governor. H.J. 1181.
 2122278,2026-02-23,House,1,"Introduced, placed on calendar. H.J. 374."
 2122676,2026-02-23,House,1,"Introduced, placed on calendar. H.J. 374."
 1959739,2025-02-06,House,1,"Introduced, referred to State Government. H.J. 262."
