@@ -2938,6 +2938,7 @@ bill_id,date,chamber,sequence,action
 2110405,2026-04-08,House,5,"Committee report, recommending passage. H.J. 865."
 2110405,2026-04-08,House,6,"Committee vote: Yeas, 24. Nays, 0. Excused, 1. H.J. 865."
 2110405,2026-04-09,House,7,"Committee report approving bill, renumbered as HF 2758."
+2110405,2026-04-29,House,8,Withdrawn. H.J. 1043.
 2110539,2026-02-06,House,1,"Introduced, referred to Commerce. H.J. 224."
 2110539,2026-02-11,House,2,"Subcommittee: Blom, Bossman and Zabner. H.J. 262."
 2110539,2026-02-11,House,3,Subcommittee Meeting: 02/17/2026 12:30PM RM 102.
@@ -7796,6 +7797,7 @@ bill_id,date,chamber,sequence,action
 1973386,2025-02-26,House,5,"Committee report, recommending passage. H.J. 445."
 1973386,2025-02-26,House,6,"Committee vote: Yeas, 15. Nays, 7. Excused, 1. H.J. 445."
 1973386,2025-02-28,House,7,"Committee report approving bill, renumbered as HF 705."
+1973386,2026-05-02,House,8,Withdrawn. H.J. 1157.
 1973164,2025-02-18,House,1,"Introduced, referred to State Government. H.J. 347."
 1973164,2025-02-24,House,2,"Subcommittee: Jones, Nielsen and Smith. H.J. 419."
 1973164,2025-02-26,House,3,Subcommittee Meeting: 03/05/2025 8:15AM House Lounge.
@@ -9310,8 +9312,8 @@ bill_id,date,chamber,sequence,action
 1988366,2026-02-16,House,5,Subcommittee Meeting: 02/17/2026 4:00PM RM 304.
 1988366,2026-02-17,House,6,Subcommittee recommends passage.
 1988366,2026-02-18,House,7,"Committee report, recommending passage. H.J. 337."
-1988366,2026-02-18,House,8,"Committee vote: Yeas, 22. Nays, 0. Excused, 1. H.J. 337."
-1988366,2026-02-18,House,9,"Pursuant to Rule 31.7, referred to Appropriations. H.J. 337."
+1988366,2026-02-18,House,8,"Committee vote: Yeas, 22. Nays, 0. Excused, 1. H.J. 338."
+1988366,2026-02-18,House,9,"Pursuant to Rule 31.7, referred to Appropriations. H.J. 338."
 1988366,2026-04-02,House,10,"Subcommittee: Lohse, Lawler and Srinivas. H.J. 805."
 1988366,2026-04-07,House,11,Subcommittee Meeting: 04/07/2026 12:30PM RM 305 (Cancelled).
 1988366,2026-04-07,House,12,Subcommittee Meeting: 04/08/2026 12:00PM RM 103.
@@ -9319,6 +9321,7 @@ bill_id,date,chamber,sequence,action
 1988366,2026-04-29,House,14,"Committee report, recommending amendment and passage. H.J. 1044."
 1988366,2026-04-29,House,15,"Committee vote: Yeas, 23. Nays, 0. Excused, 2. H.J. 1044."
 1988366,2026-04-29,House,16,"Committee report approving bill, renumbered as HF 2794."
+1988366,2026-05-02,House,17,Withdrawn. H.J. 1157.
 1988229,2025-02-28,House,1,"Introduced, placed on calendar. H.J. 482."
 1988229,2025-03-13,House,2,Amendment H-1088 filed. H.J. 659.
 1988229,2025-03-24,House,3,Amendment H-1088 adopted. H.J. 780.
@@ -9481,6 +9484,7 @@ bill_id,date,chamber,sequence,action
 1990661,2025-03-05,House,5,"Committee report, recommending passage. H.J. 536."
 1990661,2025-03-05,House,6,"Committee vote: Yeas, 19. Nays, 1. Excused, 1. H.J. 536."
 1990661,2025-03-07,House,7,"Committee report approving bill, renumbered as HF 882."
+1990661,2026-05-02,House,8,Withdrawn. H.J. 1157.
 1923060,2025-01-16,House,1,"Introduced, referred to Transportation. H.J. 86."
 1923060,2025-01-29,House,2,"Subcommittee: Meggers, Behn and Gosa. H.J. 140."
 1923060,2025-02-05,House,3,Subcommittee Meeting: 02/06/2025 12:30PM RM 102.
@@ -10611,6 +10615,7 @@ bill_id,date,chamber,sequence,action
 1994667,2026-04-29,House,8,"Committee report, recommending passage. H.J. 1044."
 1994667,2026-04-29,House,9,"Committee vote: Yeas, 23, Nays, 0. Excused, 2. H.J. 1044."
 1994667,2026-04-29,House,10,"Committee report approving bill, renumbered as HF 2793."
+1994667,2026-05-02,House,11,Withdrawn. H.J. 1157.
 1994503,2025-03-07,House,1,"Introduced, referred to Appropriations. H.J. 566."
 1994503,2025-05-09,House,2,"Subcommittee: Wood, Meyer, A. and Nielsen. H.J. 1112."
 1994503,2025-05-09,House,3,Subcommittee Meeting: 05/12/2025 8:30AM RM 102.
