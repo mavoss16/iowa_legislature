@@ -1580,6 +1580,7 @@ bill_id,date,chamber,sequence,action
 2077917,2026-02-04,House,7,"Committee report, recommending passage. H.J. 219."
 2077917,2026-02-04,House,8,"Committee vote: Yeas, 11. Nays, 0. Excused, 0. H.J. 219."
 2077917,2026-02-06,House,9,"Committee report approving bill, renumbered as HF 2310."
+2077917,2026-04-29,House,10,Withdrawn. H.J. 1043.
 2077799,2026-01-14,House,1,"Introduced, referred to Judiciary. H.J. 78."
 2077799,2026-02-04,House,2,"Subcommittee: Watkins, Olson and Williams. H.J. 205."
 2077799,2026-02-05,House,3,Subcommittee Meeting: 02/05/2026 12:30PM RM 102.
@@ -20645,11 +20646,12 @@ bill_id,date,chamber,sequence,action
 2134035,2026-05-02,House,37,House concurred in Senate amendment H-8495. H.J. 1156.
 2134035,2026-05-02,House,38,"Passed House, yeas 62, nays 22. H.J. 1156."
 2134035,2026-05-02,House,39,Explanation of vote. H.J. 1158.
-2134035,2026-05-03,House,40,Explanation of vote. H.J. 05/03.
+2134035,2026-05-02,House,40,Explanation of vote. H.J. 1164.
 2134035,2026-05-02,House,41,Immediate message. H.J. 1157.
 2134035,2026-05-03,Senate,42,Message from House. S.J. 1020.
 2134035,2026-05-18,Senate,43,"Reported correctly enrolled, signed by President and Speaker, and sent to Governor. S.J. 1028."
 2134035,2026-05-18,Senate,44,Signed by Governor. S.J. 1032.
+2134035,2026-07-15,Senate,45,Fiscal note.
 2137573,2026-03-24,Senate,1,"Introduced, placed on Appropriations calendar. S.J. 639."
 2137573,2026-03-24,Senate,2,"Committee report, approving bill. S.J. 640."
 2137573,2026-03-26,Senate,3,NOBA: Senate Full Approps
