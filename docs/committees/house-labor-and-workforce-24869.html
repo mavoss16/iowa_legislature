@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c98d9d0b3b0a085d3ddf71e6e91476d8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-6ac2aec46ad7f46b16024ee4409aa65c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -163,23 +166,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="cell">
 <div class="cell-output-display">
-<div id="pxrvtkuggf" class=".gt_table" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#pxrvtkuggf table {
+<div id="ktyjlxnqea" class=".gt_table" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ktyjlxnqea table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#pxrvtkuggf thead, #pxrvtkuggf tbody, #pxrvtkuggf tfoot, #pxrvtkuggf tr, #pxrvtkuggf td, #pxrvtkuggf th {
+#ktyjlxnqea thead, #ktyjlxnqea tbody, #ktyjlxnqea tfoot, #ktyjlxnqea tr, #ktyjlxnqea td, #ktyjlxnqea th {
   border-style: none;
 }
 
-#pxrvtkuggf p {
+#ktyjlxnqea p {
   margin: 0;
   padding: 0;
 }
 
-#pxrvtkuggf .gt_table {
+#ktyjlxnqea .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -205,12 +208,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#pxrvtkuggf .gt_caption {
+#ktyjlxnqea .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#pxrvtkuggf .gt_title {
+#ktyjlxnqea .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -222,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#pxrvtkuggf .gt_subtitle {
+#ktyjlxnqea .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -234,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#pxrvtkuggf .gt_heading {
+#ktyjlxnqea .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -246,13 +249,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#pxrvtkuggf .gt_bottom_border {
+#ktyjlxnqea .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#pxrvtkuggf .gt_col_headings {
+#ktyjlxnqea .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -267,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#pxrvtkuggf .gt_col_heading {
+#ktyjlxnqea .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -287,7 +290,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#pxrvtkuggf .gt_column_spanner_outer {
+#ktyjlxnqea .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -299,15 +302,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#pxrvtkuggf .gt_column_spanner_outer:first-child {
+#ktyjlxnqea .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#pxrvtkuggf .gt_column_spanner_outer:last-child {
+#ktyjlxnqea .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#pxrvtkuggf .gt_column_spanner {
+#ktyjlxnqea .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -319,11 +322,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#pxrvtkuggf .gt_spanner_row {
+#ktyjlxnqea .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#pxrvtkuggf .gt_group_heading {
+#ktyjlxnqea .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -349,7 +352,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#pxrvtkuggf .gt_empty_group_heading {
+#ktyjlxnqea .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -364,15 +367,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#pxrvtkuggf .gt_from_md > :first-child {
+#ktyjlxnqea .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#pxrvtkuggf .gt_from_md > :last-child {
+#ktyjlxnqea .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#pxrvtkuggf .gt_row {
+#ktyjlxnqea .gt_row {
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 5px;
@@ -391,7 +394,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#pxrvtkuggf .gt_stub {
+#ktyjlxnqea .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -404,7 +407,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#pxrvtkuggf .gt_stub_row_group {
+#ktyjlxnqea .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -418,15 +421,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#pxrvtkuggf .gt_row_group_first td {
+#ktyjlxnqea .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#pxrvtkuggf .gt_row_group_first th {
+#ktyjlxnqea .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#pxrvtkuggf .gt_summary_row {
+#ktyjlxnqea .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -436,16 +439,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#pxrvtkuggf .gt_first_summary_row {
+#ktyjlxnqea .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#pxrvtkuggf .gt_first_summary_row.thick {
+#ktyjlxnqea .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#pxrvtkuggf .gt_last_summary_row {
+#ktyjlxnqea .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -455,7 +458,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#pxrvtkuggf .gt_grand_summary_row {
+#ktyjlxnqea .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -465,7 +468,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#pxrvtkuggf .gt_first_grand_summary_row {
+#ktyjlxnqea .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -475,7 +478,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#pxrvtkuggf .gt_last_grand_summary_row_top {
+#ktyjlxnqea .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -485,11 +488,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#pxrvtkuggf .gt_striped {
+#ktyjlxnqea .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#pxrvtkuggf .gt_table_body {
+#ktyjlxnqea .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -498,7 +501,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#pxrvtkuggf .gt_footnotes {
+#ktyjlxnqea .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -512,7 +515,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#pxrvtkuggf .gt_footnote {
+#ktyjlxnqea .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -521,7 +524,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#pxrvtkuggf .gt_sourcenotes {
+#ktyjlxnqea .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -535,7 +538,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#pxrvtkuggf .gt_sourcenote {
+#ktyjlxnqea .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -543,77 +546,77 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#pxrvtkuggf .gt_left {
+#ktyjlxnqea .gt_left {
   text-align: left;
 }
 
-#pxrvtkuggf .gt_center {
+#ktyjlxnqea .gt_center {
   text-align: center;
 }
 
-#pxrvtkuggf .gt_right {
+#ktyjlxnqea .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#pxrvtkuggf .gt_font_normal {
+#ktyjlxnqea .gt_font_normal {
   font-weight: normal;
 }
 
-#pxrvtkuggf .gt_font_bold {
+#ktyjlxnqea .gt_font_bold {
   font-weight: bold;
 }
 
-#pxrvtkuggf .gt_font_italic {
+#ktyjlxnqea .gt_font_italic {
   font-style: italic;
 }
 
-#pxrvtkuggf .gt_super {
+#ktyjlxnqea .gt_super {
   font-size: 65%;
 }
 
-#pxrvtkuggf .gt_footnote_marks {
+#ktyjlxnqea .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#pxrvtkuggf .gt_asterisk {
+#ktyjlxnqea .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#pxrvtkuggf .gt_indent_1 {
+#ktyjlxnqea .gt_indent_1 {
   text-indent: 5px;
 }
 
-#pxrvtkuggf .gt_indent_2 {
+#ktyjlxnqea .gt_indent_2 {
   text-indent: 10px;
 }
 
-#pxrvtkuggf .gt_indent_3 {
+#ktyjlxnqea .gt_indent_3 {
   text-indent: 15px;
 }
 
-#pxrvtkuggf .gt_indent_4 {
+#ktyjlxnqea .gt_indent_4 {
   text-indent: 20px;
 }
 
-#pxrvtkuggf .gt_indent_5 {
+#ktyjlxnqea .gt_indent_5 {
   text-indent: 25px;
 }
 
-#pxrvtkuggf .katex-display {
+#ktyjlxnqea .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#pxrvtkuggf div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#ktyjlxnqea div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
-<div id="pxrvtkuggf" class="reactable html-widget" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="pxrvtkuggf">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"bill_link":["<a href='../legislation/HF2378.html'>HF 2378<\/a>","<a href='../legislation/HF2384.html'>HF 2384<\/a>","<a href='../legislation/HF2385.html'>HF 2385<\/a>","<a href='../legislation/HF2631.html'>HF 2631<\/a>","<a href='../legislation/HJR2008.html'>HJR 2008<\/a>","<a href='../legislation/SF487.html'>SF 487<\/a>","<a href='../legislation/HF2456.html'>HF 2456<\/a>","<a href='../legislation/HF2457.html'>HF 2457<\/a>","<a href='../legislation/HF2458.html'>HF 2458<\/a>","<a href='../legislation/HF2318.html'>HF 2318<\/a>","<a href='../legislation/HF2266.html'>HF 2266<\/a>","<a href='../legislation/HF2267.html'>HF 2267<\/a>","<a href='../legislation/HF2156.html'>HF 2156<\/a>","<a href='../legislation/HF2017.html'>HF 2017<\/a>","<a href='../legislation/HF742.html'>HF 742<\/a>","<a href='../legislation/HF804.html'>HF 804<\/a>","<a href='../legislation/HF672.html'>HF 672<\/a>","<a href='../legislation/HF673.html'>HF 673<\/a>","<a href='../legislation/HF674.html'>HF 674<\/a>","<a href='../legislation/HF675.html'>HF 675<\/a>","<a href='../legislation/HF676.html'>HF 676<\/a>","<a href='../legislation/HF677.html'>HF 677<\/a>","<a href='../legislation/HF611.html'>HF 611<\/a>","<a href='../legislation/HF465.html'>HF 465<\/a>","<a href='../legislation/HF478.html'>HF 478<\/a>","<a href='../legislation/HF455.html'>HF 455<\/a>","<a href='../legislation/HF421.html'>HF 421<\/a>","<a href='../legislation/HF432.html'>HF 432<\/a>","<a href='../legislation/HF375.html'>HF 375<\/a>","<a href='../legislation/HF348.html'>HF 348<\/a>","<a href='../legislation/HF349.html'>HF 349<\/a>","<a href='../legislation/HF281.html'>HF 281<\/a>","<a href='../legislation/HF282.html'>HF 282<\/a>","<a href='../legislation/HF283.html'>HF 283<\/a>","<a href='../legislation/HSB114.html'>HSB 114<\/a>","<a href='../legislation/HF18.html'>HF 18<\/a>"],"title":["A bill for an act increasing the state minimum hourly wage and providing for subsequent increases by the same percentage as the increase in federal social security benefits.","A bill for an act relating to the maximum amount of unemployment benefits payable during a benefit year.","A bill for an act prohibiting the misclassification of employees as independent contractors, providing penalties, and including applicability provisions.","A bill for an act relating to a family leave and medical leave insurance program that provides for paid, job-protected leave for certain family leave and medical leave reasons for eligible employees of specified employers.","A joint resolution proposing an amendment to the Constitution of the State of Iowa relating to worker rights.","A bill for an act relating to employer recordkeeping and auditing requirements for purposes of unemployment insurance and including applicability provisions.(Formerly SSB 1165.)","A bill for an act relating to employment of persons with disabilities.","A bill for an act establishing the credential-attainment program within the department of workforce development, making appropriations, and including effective date provisions.","A bill for an act establishing the teacher and para-educator grant program within the department of workforce development, and making appropriations.","A bill for an act relating to eligibility for unemployment benefits for participants in strikes or other labor disputes.","A bill for an act providing for family medical leave for grandparents and providing penalties and remedies.","A bill for an act relating to the maximum amount of unemployment benefits payable during a benefit year.","A bill for an act relating to the eligibility of certain individuals employed by educational institutions for unemployment insurance benefits between two successive academic years or terms.","A bill for an act creating a state work opportunity tax credit available against the individual and corporate income taxes, and including retroactive applicability provisions.","A bill for an act establishing requirements relating to heat response in work areas and providing penalties.","A bill for an act requiring schools to perform criminal history checks prior to engaging any person to construct a new attendance center or to perform certain specified renovations or remodeling work.","A bill for an act relating to mandatory subjects of negotiation for public employee collective bargaining and including applicability provisions.","A bill for an act requiring certain weekly workers' compensation benefits to be calculated by including an employee's overtime and premium pay, and to include an annual cost-of-living adjustment.","A bill for an act providing paid leave to state employees for volunteer activities.","A bill for an act requiring employers to provide employees with meal periods and rest periods and providing penalties.","A bill for an act requiring employers to provide reasonable accommodations to employees based on pregnancy or childbirth and making penalties applicable.","A bill for an act designating correctional officers as public safety employees for purposes of the public employment relations Act and including applicability provisions.","A bill for an act providing for increased wage rates for required work on certain holidays and making penalties and remedies applicable.","A bill for an act relating to disclosure to the general assembly of information concerning nongovernmental employers and providing remedies.","A bill for an act requiring the payment of local prevailing wage rates to persons working on public improvements for public bodies, providing remedies and penalties, and including effective date provisions.","A bill for an act relating to the maximum amount of unemployment benefits payable during a benefit year.","A bill for an act relating to injuries subject to workers' compensation and including retroactive applicability provisions.","A bill for an act relating to eligibility for financial assistance from the department of workforce development for certain apprenticeship programs.","A bill for an act establishing a state minimum hourly wage for direct care professionals.","A bill for an act prohibiting the misclassification of employees as independent contractors, providing penalties, and including applicability provisions.","A bill for an act relating to the state minimum hourly wage.","A bill for an act repealing provisions of law concerning rights relating to labor organization membership.","A bill for an act relating to eligibility for unemployment benefits for participants in strikes or other labor disputes.","A bill for an act increasing the state minimum hourly wage and providing for subsequent increases by the same percentage as the increase in federal social security benefits.","A bill for an act relating to unemployment insurance taxes on employers.","A bill for an act establishing a diminished salary offset for unemployment benefits."],"status_desc":["Introduced","Introduced","Introduced","Introduced","Introduced","Engrossed","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced"],"status_date":["2026-02-10","2026-02-10","2026-02-10","2026-02-19","2026-02-10","2026-03-04","2026-02-16","2026-02-16","2026-02-16","2026-02-06","2026-02-03","2026-02-03","2026-01-26","2026-01-13","2025-03-05","2025-03-05","2025-02-28","2025-02-28","2025-02-28","2025-02-28","2025-02-28","2025-02-28","2025-02-26","2025-02-19","2025-02-19","2025-02-18","2025-02-17","2025-02-17","2025-02-13","2025-02-12","2025-02-12","2025-02-10","2025-02-10","2025-02-10","2025-01-30","2025-01-14"],"last_action_date":["2026-03-31","2026-03-31","2026-03-31","2026-03-31","2026-03-31","2026-03-17","2026-02-16","2026-02-16","2026-02-16","2026-02-06","2026-02-03","2026-02-03","2026-01-26","2026-01-22","2025-03-05","2025-03-05","2025-02-28","2025-02-28","2025-02-28","2025-02-28","2025-02-28","2025-02-28","2025-02-26","2025-02-19","2025-02-19","2025-02-18","2025-02-17","2025-02-17","2025-02-13","2025-02-12","2025-02-12","2025-02-10","2025-02-10","2025-02-10","2025-01-30","2025-01-14"],"last_action":["Rereferred to Labor and Workforce. H.J. 784.","Rereferred to Labor and Workforce. H.J. 784.","Rereferred to Labor and Workforce. H.J. 784.","Rereferred to Labor and Workforce. H.J. 784.","Rereferred to Labor and Workforce. H.J. 784.","Subcommittee recommends passage.","Introduced, referred to Labor and Workforce. H.J. 292.","Introduced, referred to Labor and Workforce. H.J. 292.","Introduced, referred to Labor and Workforce. H.J. 292.","Introduced, referred to Labor and Workforce. H.J. 225.","Introduced, referred to Labor and Workforce. H.J. 194.","Introduced, referred to Labor and Workforce. H.J. 194.","Introduced, referred to Labor and Workforce. H.J. 150.","Subcommittee recommends passage.","Introduced, referred to Labor and Workforce. H.J. 512.","Introduced, referred to Labor and Workforce. H.J. 522.","Introduced, referred to Labor and Workforce. H.J. 477.","Introduced, referred to Labor and Workforce. H.J. 477.","Introduced, referred to Labor and Workforce. H.J. 477.","Introduced, referred to Labor and Workforce. H.J. 477.","Introduced, referred to Labor and Workforce. H.J. 478.","Introduced, referred to Labor and Workforce. H.J. 478.","Introduced, referred to Labor and Workforce. H.J. 439.","Introduced, referred to Labor and Workforce. H.J. 357.","Introduced, referred to Labor and Workforce. H.J. 359.","Introduced, referred to Labor and Workforce. H.J. 346.","Introduced, referred to Labor and Workforce. H.J. 335.","Introduced, referred to Labor and Workforce. H.J. 337.","Introduced, referred to Labor and Workforce. H.J. 316.","Introduced, referred to Labor and Workforce. H.J. 303.","Introduced, referred to Labor and Workforce. H.J. 304.","Introduced, referred to Labor and Workforce. H.J. 274.","Introduced, referred to Labor and Workforce. H.J. 274.","Introduced, referred to Labor and Workforce. H.J. 274.","Subcommittee: Kniff McCulla, Cooling and Meggers. H.J. 172.","Introduced, referred to Labor and Workforce. H.J. 41."]},"columns":[{"id":"bill_link","name":"Bill","type":["glue","character"],"na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 13) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 14) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 15) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 16) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 17) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 18) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 19) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 20) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 21) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 22) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 23) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 24) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 25) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 26) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 27) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 28) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 29) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 30) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 31) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 32) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 33) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 34) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 35) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 36) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","cell":["<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMzc4Lmh0bWwnPkhGIDIzNzg8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2378.html'>HF 2378<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMzg0Lmh0bWwnPkhGIDIzODQ8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2384.html'>HF 2384<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMzg1Lmh0bWwnPkhGIDIzODU8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2385.html'>HF 2385<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyNjMxLmh0bWwnPkhGIDI2MzE8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2631.html'>HF 2631<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEpSMjAwOC5odG1sJz5ISlIgMjAwODwvYT4=\"><span class='gt_from_md'><a href='../legislation/HJR2008.html'>HJR 2008<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vU0Y0ODcuaHRtbCc+U0YgNDg3PC9hPg==\"><span class='gt_from_md'><a href='../legislation/SF487.html'>SF 487<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyNDU2Lmh0bWwnPkhGIDI0NTY8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2456.html'>HF 2456<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyNDU3Lmh0bWwnPkhGIDI0NTc8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2457.html'>HF 2457<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyNDU4Lmh0bWwnPkhGIDI0NTg8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2458.html'>HF 2458<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMzE4Lmh0bWwnPkhGIDIzMTg8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2318.html'>HF 2318<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMjY2Lmh0bWwnPkhGIDIyNjY8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2266.html'>HF 2266<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMjY3Lmh0bWwnPkhGIDIyNjc8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2267.html'>HF 2267<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMTU2Lmh0bWwnPkhGIDIxNTY8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2156.html'>HF 2156<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMDE3Lmh0bWwnPkhGIDIwMTc8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2017.html'>HF 2017<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY3NDIuaHRtbCc+SEYgNzQyPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF742.html'>HF 742<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY4MDQuaHRtbCc+SEYgODA0PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF804.html'>HF 804<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY2NzIuaHRtbCc+SEYgNjcyPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF672.html'>HF 672<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY2NzMuaHRtbCc+SEYgNjczPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF673.html'>HF 673<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY2NzQuaHRtbCc+SEYgNjc0PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF674.html'>HF 674<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY2NzUuaHRtbCc+SEYgNjc1PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF675.html'>HF 675<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY2NzYuaHRtbCc+SEYgNjc2PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF676.html'>HF 676<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY2NzcuaHRtbCc+SEYgNjc3PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF677.html'>HF 677<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY2MTEuaHRtbCc+SEYgNjExPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF611.html'>HF 611<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY0NjUuaHRtbCc+SEYgNDY1PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF465.html'>HF 465<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY0NzguaHRtbCc+SEYgNDc4PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF478.html'>HF 478<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY0NTUuaHRtbCc+SEYgNDU1PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF455.html'>HF 455<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY0MjEuaHRtbCc+SEYgNDIxPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF421.html'>HF 421<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY0MzIuaHRtbCc+SEYgNDMyPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF432.html'>HF 432<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYzNzUuaHRtbCc+SEYgMzc1PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF375.html'>HF 375<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYzNDguaHRtbCc+SEYgMzQ4PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF348.html'>HF 348<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYzNDkuaHRtbCc+SEYgMzQ5PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF349.html'>HF 349<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyODEuaHRtbCc+SEYgMjgxPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF281.html'>HF 281<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyODIuaHRtbCc+SEYgMjgyPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF282.html'>HF 282<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyODMuaHRtbCc+SEYgMjgzPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF283.html'>HF 283<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCMTE0Lmh0bWwnPkhTQiAxMTQ8L2E+\"><span class='gt_from_md'><a href='../legislation/HSB114.html'>HSB 114<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYxOC5odG1sJz5IRiAxODwvYT4=\"><span class='gt_from_md'><a href='../legislation/HF18.html'>HF 18<\/a><\/span><\/span>"],"html":true,"align":"center"},{"id":"title","name":"Title","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 13) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 14) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 15) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 16) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 17) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 18) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 19) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 20) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 21) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 22) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 23) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 24) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 25) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 26) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 27) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 28) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 29) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 30) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 31) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 32) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 33) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 34) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 35) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 36) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"left"},{"id":"status_desc","name":"Status","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 13) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 14) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 15) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 16) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 17) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 18) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 19) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 20) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 21) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 22) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 23) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 24) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 25) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 26) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 27) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 28) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 29) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 30) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 31) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 32) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 33) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 34) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 35) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 36) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"left"},{"id":"status_date","name":"Status Date","type":"Date","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 13) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 14) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 15) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 16) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 17) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 18) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 19) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 20) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 21) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 22) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 23) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 24) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 25) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 26) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 27) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 28) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 29) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 30) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 31) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 32) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 33) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 34) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 35) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 36) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"last_action_date","name":"Last Action Date","type":"Date","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 13) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 14) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 15) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 16) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 17) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 18) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 19) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 20) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 21) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 22) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 23) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 24) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 25) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 26) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 27) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 28) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 29) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 30) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 31) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 32) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 33) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 34) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 35) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 36) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"last_action","name":"Last Action","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 13) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 14) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 15) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 16) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 17) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 18) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 19) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 20) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 21) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 22) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 23) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 24) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 25) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 26) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 27) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 28) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 29) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 30) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 31) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 32) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 33) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 34) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 35) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 36) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"left"}],"filterable":true,"searchable":true,"defaultPageSize":25,"showPageSizeOptions":true,"pageSizeOptions":[10,25,50,100],"paginationType":"numbers","showPagination":true,"showPageInfo":true,"minRows":1,"height":"auto","theme":{"color":"#333333","backgroundColor":"#FFFFFF","stripedColor":"rgba(128,128,128,0.05)","style":{"font-family":"system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif","fontSize":"12px"},"tableStyle":{"borderTopStyle":"solid","borderTopWidth":"2px","borderTopColor":"#D3D3D3"},"headerStyle":{"fontWeight":"normal","backgroundColor":"transparent","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"},"groupHeaderStyle":{"fontWeight":"normal","backgroundColor":"transparent","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"},"cellStyle":{"fontWeight":"normal"}},"elementId":"pxrvtkuggf","dataKey":"90182214187af092bf5aa28437ee742d"},"children":[]},"class":"reactR_markup"},"evals":["tag.attribs.columns.0.style","tag.attribs.columns.1.style","tag.attribs.columns.2.style","tag.attribs.columns.3.style","tag.attribs.columns.4.style","tag.attribs.columns.5.style"],"jsHooks":[]}</script>
+<div id="ktyjlxnqea" class="reactable html-widget" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="ktyjlxnqea">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"bill_link":["<a href='../legislation/HF2378.html'>HF 2378<\/a>","<a href='../legislation/HF2384.html'>HF 2384<\/a>","<a href='../legislation/HF2385.html'>HF 2385<\/a>","<a href='../legislation/HF2631.html'>HF 2631<\/a>","<a href='../legislation/HJR2008.html'>HJR 2008<\/a>","<a href='../legislation/SF487.html'>SF 487<\/a>","<a href='../legislation/HF2456.html'>HF 2456<\/a>","<a href='../legislation/HF2457.html'>HF 2457<\/a>","<a href='../legislation/HF2458.html'>HF 2458<\/a>","<a href='../legislation/HF2318.html'>HF 2318<\/a>","<a href='../legislation/HF2266.html'>HF 2266<\/a>","<a href='../legislation/HF2267.html'>HF 2267<\/a>","<a href='../legislation/HF2156.html'>HF 2156<\/a>","<a href='../legislation/HF2017.html'>HF 2017<\/a>","<a href='../legislation/HF742.html'>HF 742<\/a>","<a href='../legislation/HF804.html'>HF 804<\/a>","<a href='../legislation/HF672.html'>HF 672<\/a>","<a href='../legislation/HF673.html'>HF 673<\/a>","<a href='../legislation/HF674.html'>HF 674<\/a>","<a href='../legislation/HF675.html'>HF 675<\/a>","<a href='../legislation/HF676.html'>HF 676<\/a>","<a href='../legislation/HF677.html'>HF 677<\/a>","<a href='../legislation/HF611.html'>HF 611<\/a>","<a href='../legislation/HF465.html'>HF 465<\/a>","<a href='../legislation/HF478.html'>HF 478<\/a>","<a href='../legislation/HF455.html'>HF 455<\/a>","<a href='../legislation/HF421.html'>HF 421<\/a>","<a href='../legislation/HF432.html'>HF 432<\/a>","<a href='../legislation/HF375.html'>HF 375<\/a>","<a href='../legislation/HF348.html'>HF 348<\/a>","<a href='../legislation/HF349.html'>HF 349<\/a>","<a href='../legislation/HF281.html'>HF 281<\/a>","<a href='../legislation/HF282.html'>HF 282<\/a>","<a href='../legislation/HF283.html'>HF 283<\/a>","<a href='../legislation/HSB114.html'>HSB 114<\/a>","<a href='../legislation/HF18.html'>HF 18<\/a>"],"title":["A bill for an act increasing the state minimum hourly wage and providing for subsequent increases by the same percentage as the increase in federal social security benefits.","A bill for an act relating to the maximum amount of unemployment benefits payable during a benefit year.","A bill for an act prohibiting the misclassification of employees as independent contractors, providing penalties, and including applicability provisions.","A bill for an act relating to a family leave and medical leave insurance program that provides for paid, job-protected leave for certain family leave and medical leave reasons for eligible employees of specified employers.","A joint resolution proposing an amendment to the Constitution of the State of Iowa relating to worker rights.","A bill for an act relating to employer recordkeeping and auditing requirements for purposes of unemployment insurance and including applicability provisions.(Formerly SSB 1165.)","A bill for an act relating to employment of persons with disabilities.","A bill for an act establishing the credential-attainment program within the department of workforce development, making appropriations, and including effective date provisions.","A bill for an act establishing the teacher and para-educator grant program within the department of workforce development, and making appropriations.","A bill for an act relating to eligibility for unemployment benefits for participants in strikes or other labor disputes.","A bill for an act providing for family medical leave for grandparents and providing penalties and remedies.","A bill for an act relating to the maximum amount of unemployment benefits payable during a benefit year.","A bill for an act relating to the eligibility of certain individuals employed by educational institutions for unemployment insurance benefits between two successive academic years or terms.","A bill for an act creating a state work opportunity tax credit available against the individual and corporate income taxes, and including retroactive applicability provisions.","A bill for an act establishing requirements relating to heat response in work areas and providing penalties.","A bill for an act requiring schools to perform criminal history checks prior to engaging any person to construct a new attendance center or to perform certain specified renovations or remodeling work.","A bill for an act relating to mandatory subjects of negotiation for public employee collective bargaining and including applicability provisions.","A bill for an act requiring certain weekly workers' compensation benefits to be calculated by including an employee's overtime and premium pay, and to include an annual cost-of-living adjustment.","A bill for an act providing paid leave to state employees for volunteer activities.","A bill for an act requiring employers to provide employees with meal periods and rest periods and providing penalties.","A bill for an act requiring employers to provide reasonable accommodations to employees based on pregnancy or childbirth and making penalties applicable.","A bill for an act designating correctional officers as public safety employees for purposes of the public employment relations Act and including applicability provisions.","A bill for an act providing for increased wage rates for required work on certain holidays and making penalties and remedies applicable.","A bill for an act relating to disclosure to the general assembly of information concerning nongovernmental employers and providing remedies.","A bill for an act requiring the payment of local prevailing wage rates to persons working on public improvements for public bodies, providing remedies and penalties, and including effective date provisions.","A bill for an act relating to the maximum amount of unemployment benefits payable during a benefit year.","A bill for an act relating to injuries subject to workers' compensation and including retroactive applicability provisions.","A bill for an act relating to eligibility for financial assistance from the department of workforce development for certain apprenticeship programs.","A bill for an act establishing a state minimum hourly wage for direct care professionals.","A bill for an act prohibiting the misclassification of employees as independent contractors, providing penalties, and including applicability provisions.","A bill for an act relating to the state minimum hourly wage.","A bill for an act repealing provisions of law concerning rights relating to labor organization membership.","A bill for an act relating to eligibility for unemployment benefits for participants in strikes or other labor disputes.","A bill for an act increasing the state minimum hourly wage and providing for subsequent increases by the same percentage as the increase in federal social security benefits.","A bill for an act relating to unemployment insurance taxes on employers.","A bill for an act establishing a diminished salary offset for unemployment benefits."],"status_desc":["Introduced","Introduced","Introduced","Introduced","Introduced","Engrossed","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced","Introduced"],"status_date":["2026-02-10","2026-02-10","2026-02-10","2026-02-19","2026-02-10","2026-03-04","2026-02-16","2026-02-16","2026-02-16","2026-02-06","2026-02-03","2026-02-03","2026-01-26","2026-01-13","2025-03-05","2025-03-05","2025-02-28","2025-02-28","2025-02-28","2025-02-28","2025-02-28","2025-02-28","2025-02-26","2025-02-19","2025-02-19","2025-02-18","2025-02-17","2025-02-17","2025-02-13","2025-02-12","2025-02-12","2025-02-10","2025-02-10","2025-02-10","2025-01-30","2025-01-14"],"last_action_date":["2026-03-31","2026-03-31","2026-03-31","2026-03-31","2026-03-31","2026-03-17","2026-02-16","2026-02-16","2026-02-16","2026-02-06","2026-02-03","2026-02-03","2026-01-26","2026-01-22","2025-03-05","2025-03-05","2025-02-28","2025-02-28","2025-02-28","2025-02-28","2025-02-28","2025-02-28","2025-02-26","2025-02-19","2025-02-19","2025-02-18","2025-02-17","2025-02-17","2025-02-13","2025-02-12","2025-02-12","2025-02-10","2025-02-10","2025-02-10","2025-01-30","2025-01-14"],"last_action":["Rereferred to Labor and Workforce. H.J. 784.","Rereferred to Labor and Workforce. H.J. 784.","Rereferred to Labor and Workforce. H.J. 784.","Rereferred to Labor and Workforce. H.J. 784.","Rereferred to Labor and Workforce. H.J. 784.","Subcommittee recommends passage.","Introduced, referred to Labor and Workforce. H.J. 292.","Introduced, referred to Labor and Workforce. H.J. 292.","Introduced, referred to Labor and Workforce. H.J. 292.","Introduced, referred to Labor and Workforce. H.J. 225.","Introduced, referred to Labor and Workforce. H.J. 194.","Introduced, referred to Labor and Workforce. H.J. 194.","Introduced, referred to Labor and Workforce. H.J. 150.","Subcommittee recommends passage.","Introduced, referred to Labor and Workforce. H.J. 512.","Introduced, referred to Labor and Workforce. H.J. 522.","Introduced, referred to Labor and Workforce. H.J. 477.","Introduced, referred to Labor and Workforce. H.J. 477.","Introduced, referred to Labor and Workforce. H.J. 477.","Introduced, referred to Labor and Workforce. H.J. 477.","Introduced, referred to Labor and Workforce. H.J. 478.","Introduced, referred to Labor and Workforce. H.J. 478.","Introduced, referred to Labor and Workforce. H.J. 439.","Introduced, referred to Labor and Workforce. H.J. 357.","Introduced, referred to Labor and Workforce. H.J. 359.","Introduced, referred to Labor and Workforce. H.J. 346.","Introduced, referred to Labor and Workforce. H.J. 335.","Introduced, referred to Labor and Workforce. H.J. 337.","Introduced, referred to Labor and Workforce. H.J. 316.","Introduced, referred to Labor and Workforce. H.J. 303.","Introduced, referred to Labor and Workforce. H.J. 304.","Introduced, referred to Labor and Workforce. H.J. 274.","Introduced, referred to Labor and Workforce. H.J. 274.","Introduced, referred to Labor and Workforce. H.J. 274.","Subcommittee: Kniff McCulla, Cooling and Meggers. H.J. 172.","Introduced, referred to Labor and Workforce. H.J. 41."]},"columns":[{"id":"bill_link","name":"Bill","type":["glue","character"],"na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 13) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 14) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 15) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 16) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 17) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 18) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 19) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 20) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 21) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 22) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 23) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 24) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 25) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 26) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 27) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 28) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 29) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 30) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 31) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 32) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 33) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 34) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 35) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 36) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","cell":["<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMzc4Lmh0bWwnPkhGIDIzNzg8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2378.html'>HF 2378<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMzg0Lmh0bWwnPkhGIDIzODQ8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2384.html'>HF 2384<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMzg1Lmh0bWwnPkhGIDIzODU8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2385.html'>HF 2385<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyNjMxLmh0bWwnPkhGIDI2MzE8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2631.html'>HF 2631<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEpSMjAwOC5odG1sJz5ISlIgMjAwODwvYT4=\"><span class='gt_from_md'><a href='../legislation/HJR2008.html'>HJR 2008<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vU0Y0ODcuaHRtbCc+U0YgNDg3PC9hPg==\"><span class='gt_from_md'><a href='../legislation/SF487.html'>SF 487<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyNDU2Lmh0bWwnPkhGIDI0NTY8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2456.html'>HF 2456<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyNDU3Lmh0bWwnPkhGIDI0NTc8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2457.html'>HF 2457<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyNDU4Lmh0bWwnPkhGIDI0NTg8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2458.html'>HF 2458<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMzE4Lmh0bWwnPkhGIDIzMTg8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2318.html'>HF 2318<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMjY2Lmh0bWwnPkhGIDIyNjY8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2266.html'>HF 2266<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMjY3Lmh0bWwnPkhGIDIyNjc8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2267.html'>HF 2267<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMTU2Lmh0bWwnPkhGIDIxNTY8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2156.html'>HF 2156<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMDE3Lmh0bWwnPkhGIDIwMTc8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2017.html'>HF 2017<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY3NDIuaHRtbCc+SEYgNzQyPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF742.html'>HF 742<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY4MDQuaHRtbCc+SEYgODA0PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF804.html'>HF 804<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY2NzIuaHRtbCc+SEYgNjcyPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF672.html'>HF 672<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY2NzMuaHRtbCc+SEYgNjczPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF673.html'>HF 673<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY2NzQuaHRtbCc+SEYgNjc0PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF674.html'>HF 674<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY2NzUuaHRtbCc+SEYgNjc1PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF675.html'>HF 675<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY2NzYuaHRtbCc+SEYgNjc2PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF676.html'>HF 676<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY2NzcuaHRtbCc+SEYgNjc3PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF677.html'>HF 677<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY2MTEuaHRtbCc+SEYgNjExPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF611.html'>HF 611<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY0NjUuaHRtbCc+SEYgNDY1PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF465.html'>HF 465<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY0NzguaHRtbCc+SEYgNDc4PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF478.html'>HF 478<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY0NTUuaHRtbCc+SEYgNDU1PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF455.html'>HF 455<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY0MjEuaHRtbCc+SEYgNDIxPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF421.html'>HF 421<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY0MzIuaHRtbCc+SEYgNDMyPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF432.html'>HF 432<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYzNzUuaHRtbCc+SEYgMzc1PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF375.html'>HF 375<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYzNDguaHRtbCc+SEYgMzQ4PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF348.html'>HF 348<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYzNDkuaHRtbCc+SEYgMzQ5PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF349.html'>HF 349<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyODEuaHRtbCc+SEYgMjgxPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF281.html'>HF 281<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyODIuaHRtbCc+SEYgMjgyPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF282.html'>HF 282<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyODMuaHRtbCc+SEYgMjgzPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF283.html'>HF 283<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCMTE0Lmh0bWwnPkhTQiAxMTQ8L2E+\"><span class='gt_from_md'><a href='../legislation/HSB114.html'>HSB 114<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYxOC5odG1sJz5IRiAxODwvYT4=\"><span class='gt_from_md'><a href='../legislation/HF18.html'>HF 18<\/a><\/span><\/span>"],"html":true,"align":"center"},{"id":"title","name":"Title","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 13) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 14) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 15) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 16) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 17) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 18) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 19) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 20) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 21) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 22) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 23) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 24) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 25) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 26) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 27) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 28) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 29) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 30) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 31) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 32) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 33) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 34) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 35) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 36) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"left"},{"id":"status_desc","name":"Status","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 13) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 14) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 15) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 16) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 17) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 18) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 19) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 20) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 21) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 22) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 23) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 24) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 25) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 26) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 27) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 28) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 29) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 30) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 31) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 32) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 33) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 34) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 35) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 36) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"left"},{"id":"status_date","name":"Status Date","type":"Date","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 13) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 14) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 15) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 16) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 17) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 18) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 19) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 20) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 21) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 22) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 23) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 24) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 25) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 26) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 27) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 28) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 29) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 30) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 31) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 32) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 33) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 34) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 35) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 36) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"last_action_date","name":"Last Action Date","type":"Date","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 13) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 14) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 15) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 16) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 17) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 18) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 19) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 20) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 21) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 22) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 23) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 24) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 25) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 26) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 27) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 28) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 29) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 30) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 31) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 32) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 33) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 34) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 35) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 36) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"last_action","name":"Last Action","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 13) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 14) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 15) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 16) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 17) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 18) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 19) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 20) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 21) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 22) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 23) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 24) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 25) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 26) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 27) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 28) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 29) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 30) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 31) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 32) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 33) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 34) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 35) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 36) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"left"}],"filterable":true,"searchable":true,"defaultPageSize":25,"showPageSizeOptions":true,"pageSizeOptions":[10,25,50,100],"paginationType":"numbers","showPagination":true,"showPageInfo":true,"minRows":1,"height":"auto","theme":{"color":"#333333","backgroundColor":"#FFFFFF","stripedColor":"rgba(128,128,128,0.05)","style":{"font-family":"system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif","fontSize":"12px"},"tableStyle":{"borderTopStyle":"solid","borderTopWidth":"2px","borderTopColor":"#D3D3D3"},"headerStyle":{"fontWeight":"normal","backgroundColor":"transparent","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"},"groupHeaderStyle":{"fontWeight":"normal","backgroundColor":"transparent","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"},"cellStyle":{"fontWeight":"normal"}},"elementId":"ktyjlxnqea","dataKey":"90182214187af092bf5aa28437ee742d"},"children":[]},"class":"reactR_markup"},"evals":["tag.attribs.columns.0.style","tag.attribs.columns.1.style","tag.attribs.columns.2.style","tag.attribs.columns.3.style","tag.attribs.columns.4.style","tag.attribs.columns.5.style"],"jsHooks":[]}</script>
 </div>
 </div>
 </div>
@@ -621,23 +624,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <div class="cell">
 <div class="cell-output-display">
-<div id="dhswzbwcak" class=".gt_table" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#dhswzbwcak table {
+<div id="uqacgoxxci" class=".gt_table" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#uqacgoxxci table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#dhswzbwcak thead, #dhswzbwcak tbody, #dhswzbwcak tfoot, #dhswzbwcak tr, #dhswzbwcak td, #dhswzbwcak th {
+#uqacgoxxci thead, #uqacgoxxci tbody, #uqacgoxxci tfoot, #uqacgoxxci tr, #uqacgoxxci td, #uqacgoxxci th {
   border-style: none;
 }
 
-#dhswzbwcak p {
+#uqacgoxxci p {
   margin: 0;
   padding: 0;
 }
 
-#dhswzbwcak .gt_table {
+#uqacgoxxci .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -663,12 +666,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#dhswzbwcak .gt_caption {
+#uqacgoxxci .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#dhswzbwcak .gt_title {
+#uqacgoxxci .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -680,7 +683,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#dhswzbwcak .gt_subtitle {
+#uqacgoxxci .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -692,7 +695,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#dhswzbwcak .gt_heading {
+#uqacgoxxci .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -704,13 +707,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#dhswzbwcak .gt_bottom_border {
+#uqacgoxxci .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#dhswzbwcak .gt_col_headings {
+#uqacgoxxci .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -725,7 +728,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#dhswzbwcak .gt_col_heading {
+#uqacgoxxci .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -745,7 +748,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#dhswzbwcak .gt_column_spanner_outer {
+#uqacgoxxci .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -757,15 +760,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#dhswzbwcak .gt_column_spanner_outer:first-child {
+#uqacgoxxci .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#dhswzbwcak .gt_column_spanner_outer:last-child {
+#uqacgoxxci .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#dhswzbwcak .gt_column_spanner {
+#uqacgoxxci .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -777,11 +780,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#dhswzbwcak .gt_spanner_row {
+#uqacgoxxci .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#dhswzbwcak .gt_group_heading {
+#uqacgoxxci .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -807,7 +810,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#dhswzbwcak .gt_empty_group_heading {
+#uqacgoxxci .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -822,15 +825,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#dhswzbwcak .gt_from_md > :first-child {
+#uqacgoxxci .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#dhswzbwcak .gt_from_md > :last-child {
+#uqacgoxxci .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#dhswzbwcak .gt_row {
+#uqacgoxxci .gt_row {
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 5px;
@@ -849,7 +852,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#dhswzbwcak .gt_stub {
+#uqacgoxxci .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -862,7 +865,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#dhswzbwcak .gt_stub_row_group {
+#uqacgoxxci .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -876,15 +879,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#dhswzbwcak .gt_row_group_first td {
+#uqacgoxxci .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#dhswzbwcak .gt_row_group_first th {
+#uqacgoxxci .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#dhswzbwcak .gt_summary_row {
+#uqacgoxxci .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -894,16 +897,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#dhswzbwcak .gt_first_summary_row {
+#uqacgoxxci .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#dhswzbwcak .gt_first_summary_row.thick {
+#uqacgoxxci .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#dhswzbwcak .gt_last_summary_row {
+#uqacgoxxci .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -913,7 +916,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#dhswzbwcak .gt_grand_summary_row {
+#uqacgoxxci .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -923,7 +926,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#dhswzbwcak .gt_first_grand_summary_row {
+#uqacgoxxci .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -933,7 +936,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#dhswzbwcak .gt_last_grand_summary_row_top {
+#uqacgoxxci .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -943,11 +946,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#dhswzbwcak .gt_striped {
+#uqacgoxxci .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#dhswzbwcak .gt_table_body {
+#uqacgoxxci .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -956,7 +959,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#dhswzbwcak .gt_footnotes {
+#uqacgoxxci .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -970,7 +973,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#dhswzbwcak .gt_footnote {
+#uqacgoxxci .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -979,7 +982,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#dhswzbwcak .gt_sourcenotes {
+#uqacgoxxci .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -993,7 +996,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#dhswzbwcak .gt_sourcenote {
+#uqacgoxxci .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1001,77 +1004,77 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#dhswzbwcak .gt_left {
+#uqacgoxxci .gt_left {
   text-align: left;
 }
 
-#dhswzbwcak .gt_center {
+#uqacgoxxci .gt_center {
   text-align: center;
 }
 
-#dhswzbwcak .gt_right {
+#uqacgoxxci .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#dhswzbwcak .gt_font_normal {
+#uqacgoxxci .gt_font_normal {
   font-weight: normal;
 }
 
-#dhswzbwcak .gt_font_bold {
+#uqacgoxxci .gt_font_bold {
   font-weight: bold;
 }
 
-#dhswzbwcak .gt_font_italic {
+#uqacgoxxci .gt_font_italic {
   font-style: italic;
 }
 
-#dhswzbwcak .gt_super {
+#uqacgoxxci .gt_super {
   font-size: 65%;
 }
 
-#dhswzbwcak .gt_footnote_marks {
+#uqacgoxxci .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#dhswzbwcak .gt_asterisk {
+#uqacgoxxci .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#dhswzbwcak .gt_indent_1 {
+#uqacgoxxci .gt_indent_1 {
   text-indent: 5px;
 }
 
-#dhswzbwcak .gt_indent_2 {
+#uqacgoxxci .gt_indent_2 {
   text-indent: 10px;
 }
 
-#dhswzbwcak .gt_indent_3 {
+#uqacgoxxci .gt_indent_3 {
   text-indent: 15px;
 }
 
-#dhswzbwcak .gt_indent_4 {
+#uqacgoxxci .gt_indent_4 {
   text-indent: 20px;
 }
 
-#dhswzbwcak .gt_indent_5 {
+#uqacgoxxci .gt_indent_5 {
   text-indent: 25px;
 }
 
-#dhswzbwcak .katex-display {
+#uqacgoxxci .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#dhswzbwcak div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#uqacgoxxci div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
-<div id="dhswzbwcak" class="reactable html-widget" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="dhswzbwcak">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"bill_link":["<a href='../legislation/HF2327.html'>HF 2327<\/a>","<a href='../legislation/HF2607.html'>HF 2607<\/a>","<a href='../legislation/HF2611.html'>HF 2611<\/a>","<a href='../legislation/HF2588.html'>HF 2588<\/a>","<a href='../legislation/HSB556.html'>HSB 556<\/a>","<a href='../legislation/HF767.html'>HF 767<\/a>","<a href='../legislation/HF441.html'>HF 441<\/a>","<a href='../legislation/HF722.html'>HF 722<\/a>","<a href='../legislation/HSB26.html'>HSB 26<\/a>","<a href='../legislation/HSB68.html'>HSB 68<\/a>","<a href='../legislation/HSB18.html'>HSB 18<\/a>","<a href='../legislation/HSB114.html'>HSB 114<\/a>"],"title":["A bill for an act relating to programs and procedures of the department of workforce development and including effective date provisions.(Formerly HSB 556.)","A bill for an act exempting service performed for certain employers from eligibility for unemployment insurance, and including applicability provisions.(Formerly HF 2319.)","A bill for an act relating to unlawful practices involving providing a false social security number to an employer or prospective employer, or to a potential employee, and making penalties applicable.(Formerly HF 2088.)","A bill for an act establishing a water and wastewater operator apprenticeship and work release pilot program for inmates, and making appropriations.(Formerly HF 2129.)","A bill for an act relating to programs and procedures of the department of workforce development and including effective date provisions.(See HF 2327.)","A bill for an act concerning private sector employee drug testing. (Formerly HSB 26.) Effective date: 07/01/2025.","A bill for an act concerning the functions of the employment appeal board; the workers' compensation commissioner; and the department of inspections, appeals, and licensing relating to contested cases, judicial review, and liability. (Formerly HSB 18.) Effective date: 07/01/2025.","A bill for an act relating to workforce training, unemployment insurance, and other functions and programs of the department of workforce development, the workforce development board, and local workforce development boards.(Formerly HSB 68.)","A bill for an act concerning private sector employee drug testing.(See HF 767.)","A bill for an act relating to workforce training, unemployment insurance, adult education, and other functions and programs of the department of workforce development, the workforce development board, and local workforce development boards, and making appropriations.(See HF 722.)","A bill for an act concerning the functions of the employment appeal board; the workers' compensation commissioner; and the department of inspections, appeals, and licensing relating to contested cases, judicial review, and liability.(See HF 441.)","A bill for an act relating to unemployment insurance taxes on employers."],"status_desc":["Introduced","Introduced","Introduced","Introduced","Introduced","Passed","Passed","Introduced","Introduced","Introduced","Introduced","Introduced"],"status_date":["2026-02-06","2026-02-19","2026-02-19","2026-02-18","2026-01-14","2025-06-06","2025-05-19","2025-03-04","2025-01-15","2025-01-23","2025-01-15","2025-01-30"],"last_action_date":["2026-03-12","2026-03-10","2026-03-06","2026-02-18","2026-02-06","2025-06-06","2025-05-19","2025-03-18","2025-03-05","2025-03-04","2025-02-17","2025-01-30"],"last_action":["Referred to Appropriations. H.J. 666.","Amendment H-8190 filed. H.J. 632.","Fiscal note.","Introduced, referred to Appropriations. H.J. 331.","Committee report approving bill, renumbered as HF 2327.","Signed by Governor. H.J. 1226.","Signed by Governor. H.J. 1226.","Withdrawn. H.J. 717.","Committee report approving bill, renumbered as HF 767.","Committee report approving bill, renumbered as HF 722.","Committee report approving bill, renumbered as HF 441.","Subcommittee: Kniff McCulla, Cooling and Meggers. H.J. 172."]},"columns":[{"id":"bill_link","name":"Bill","type":["glue","character"],"na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","cell":["<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMzI3Lmh0bWwnPkhGIDIzMjc8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2327.html'>HF 2327<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyNjA3Lmh0bWwnPkhGIDI2MDc8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2607.html'>HF 2607<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyNjExLmh0bWwnPkhGIDI2MTE8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2611.html'>HF 2611<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyNTg4Lmh0bWwnPkhGIDI1ODg8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2588.html'>HF 2588<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCNTU2Lmh0bWwnPkhTQiA1NTY8L2E+\"><span class='gt_from_md'><a href='../legislation/HSB556.html'>HSB 556<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY3NjcuaHRtbCc+SEYgNzY3PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF767.html'>HF 767<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY0NDEuaHRtbCc+SEYgNDQxPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF441.html'>HF 441<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY3MjIuaHRtbCc+SEYgNzIyPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF722.html'>HF 722<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCMjYuaHRtbCc+SFNCIDI2PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HSB26.html'>HSB 26<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCNjguaHRtbCc+SFNCIDY4PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HSB68.html'>HSB 68<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCMTguaHRtbCc+SFNCIDE4PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HSB18.html'>HSB 18<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCMTE0Lmh0bWwnPkhTQiAxMTQ8L2E+\"><span class='gt_from_md'><a href='../legislation/HSB114.html'>HSB 114<\/a><\/span><\/span>"],"html":true,"align":"center"},{"id":"title","name":"Title","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"left"},{"id":"status_desc","name":"Status","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"left"},{"id":"status_date","name":"Status Date","type":"Date","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"last_action_date","name":"Last Action Date","type":"Date","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"last_action","name":"Last Action","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"left"}],"filterable":true,"searchable":true,"defaultPageSize":25,"showPageSizeOptions":true,"pageSizeOptions":[10,25,50,100],"paginationType":"numbers","showPagination":true,"showPageInfo":true,"minRows":1,"height":"auto","theme":{"color":"#333333","backgroundColor":"#FFFFFF","stripedColor":"rgba(128,128,128,0.05)","style":{"font-family":"system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif","fontSize":"12px"},"tableStyle":{"borderTopStyle":"solid","borderTopWidth":"2px","borderTopColor":"#D3D3D3"},"headerStyle":{"fontWeight":"normal","backgroundColor":"transparent","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"},"groupHeaderStyle":{"fontWeight":"normal","backgroundColor":"transparent","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"},"cellStyle":{"fontWeight":"normal"}},"elementId":"dhswzbwcak","dataKey":"f109f13669b4a6d61f77636c442865ef"},"children":[]},"class":"reactR_markup"},"evals":["tag.attribs.columns.0.style","tag.attribs.columns.1.style","tag.attribs.columns.2.style","tag.attribs.columns.3.style","tag.attribs.columns.4.style","tag.attribs.columns.5.style"],"jsHooks":[]}</script>
+<div id="uqacgoxxci" class="reactable html-widget" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="uqacgoxxci">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"bill_link":["<a href='../legislation/HF2327.html'>HF 2327<\/a>","<a href='../legislation/HF2607.html'>HF 2607<\/a>","<a href='../legislation/HF2611.html'>HF 2611<\/a>","<a href='../legislation/HF2588.html'>HF 2588<\/a>","<a href='../legislation/HSB556.html'>HSB 556<\/a>","<a href='../legislation/HF767.html'>HF 767<\/a>","<a href='../legislation/HF441.html'>HF 441<\/a>","<a href='../legislation/HF722.html'>HF 722<\/a>","<a href='../legislation/HSB26.html'>HSB 26<\/a>","<a href='../legislation/HSB68.html'>HSB 68<\/a>","<a href='../legislation/HSB18.html'>HSB 18<\/a>","<a href='../legislation/HSB114.html'>HSB 114<\/a>"],"title":["A bill for an act relating to programs and procedures of the department of workforce development and including effective date provisions.(Formerly HSB 556.)","A bill for an act exempting service performed for certain employers from eligibility for unemployment insurance, and including applicability provisions.(Formerly HF 2319.)","A bill for an act relating to unlawful practices involving providing a false social security number to an employer or prospective employer, or to a potential employee, and making penalties applicable.(Formerly HF 2088.)","A bill for an act establishing a water and wastewater operator apprenticeship and work release pilot program for inmates, and making appropriations.(Formerly HF 2129.)","A bill for an act relating to programs and procedures of the department of workforce development and including effective date provisions.(See HF 2327.)","A bill for an act concerning private sector employee drug testing. (Formerly HSB 26.) Effective date: 07/01/2025.","A bill for an act concerning the functions of the employment appeal board; the workers' compensation commissioner; and the department of inspections, appeals, and licensing relating to contested cases, judicial review, and liability. (Formerly HSB 18.) Effective date: 07/01/2025.","A bill for an act relating to workforce training, unemployment insurance, and other functions and programs of the department of workforce development, the workforce development board, and local workforce development boards.(Formerly HSB 68.)","A bill for an act concerning private sector employee drug testing.(See HF 767.)","A bill for an act relating to workforce training, unemployment insurance, adult education, and other functions and programs of the department of workforce development, the workforce development board, and local workforce development boards, and making appropriations.(See HF 722.)","A bill for an act concerning the functions of the employment appeal board; the workers' compensation commissioner; and the department of inspections, appeals, and licensing relating to contested cases, judicial review, and liability.(See HF 441.)","A bill for an act relating to unemployment insurance taxes on employers."],"status_desc":["Introduced","Introduced","Introduced","Introduced","Introduced","Passed","Passed","Introduced","Introduced","Introduced","Introduced","Introduced"],"status_date":["2026-02-06","2026-02-19","2026-02-19","2026-02-18","2026-01-14","2025-06-06","2025-05-19","2025-03-04","2025-01-15","2025-01-23","2025-01-15","2025-01-30"],"last_action_date":["2026-03-12","2026-03-10","2026-03-06","2026-02-18","2026-02-06","2025-06-06","2025-05-19","2025-03-18","2025-03-05","2025-03-04","2025-02-17","2025-01-30"],"last_action":["Referred to Appropriations. H.J. 666.","Amendment H-8190 filed. H.J. 632.","Fiscal note.","Introduced, referred to Appropriations. H.J. 331.","Committee report approving bill, renumbered as HF 2327.","Signed by Governor. H.J. 1226.","Signed by Governor. H.J. 1226.","Withdrawn. H.J. 717.","Committee report approving bill, renumbered as HF 767.","Committee report approving bill, renumbered as HF 722.","Committee report approving bill, renumbered as HF 441.","Subcommittee: Kniff McCulla, Cooling and Meggers. H.J. 172."]},"columns":[{"id":"bill_link","name":"Bill","type":["glue","character"],"na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","cell":["<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyMzI3Lmh0bWwnPkhGIDIzMjc8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2327.html'>HF 2327<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyNjA3Lmh0bWwnPkhGIDI2MDc8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2607.html'>HF 2607<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyNjExLmh0bWwnPkhGIDI2MTE8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2611.html'>HF 2611<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEYyNTg4Lmh0bWwnPkhGIDI1ODg8L2E+\"><span class='gt_from_md'><a href='../legislation/HF2588.html'>HF 2588<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCNTU2Lmh0bWwnPkhTQiA1NTY8L2E+\"><span class='gt_from_md'><a href='../legislation/HSB556.html'>HSB 556<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY3NjcuaHRtbCc+SEYgNzY3PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF767.html'>HF 767<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY0NDEuaHRtbCc+SEYgNDQxPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF441.html'>HF 441<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSEY3MjIuaHRtbCc+SEYgNzIyPC9hPg==\"><span class='gt_from_md'><a href='../legislation/HF722.html'>HF 722<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCMjYuaHRtbCc+SFNCIDI2PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HSB26.html'>HSB 26<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCNjguaHRtbCc+SFNCIDY4PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HSB68.html'>HSB 68<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCMTguaHRtbCc+SFNCIDE4PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HSB18.html'>HSB 18<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCMTE0Lmh0bWwnPkhTQiAxMTQ8L2E+\"><span class='gt_from_md'><a href='../legislation/HSB114.html'>HSB 114<\/a><\/span><\/span>"],"html":true,"align":"center"},{"id":"title","name":"Title","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"left"},{"id":"status_desc","name":"Status","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"left"},{"id":"status_date","name":"Status Date","type":"Date","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"last_action_date","name":"Last Action Date","type":"Date","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"last_action","name":"Last Action","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 6) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 7) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 8) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 9) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 10) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 11) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 12) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"left"}],"filterable":true,"searchable":true,"defaultPageSize":25,"showPageSizeOptions":true,"pageSizeOptions":[10,25,50,100],"paginationType":"numbers","showPagination":true,"showPageInfo":true,"minRows":1,"height":"auto","theme":{"color":"#333333","backgroundColor":"#FFFFFF","stripedColor":"rgba(128,128,128,0.05)","style":{"font-family":"system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif","fontSize":"12px"},"tableStyle":{"borderTopStyle":"solid","borderTopWidth":"2px","borderTopColor":"#D3D3D3"},"headerStyle":{"fontWeight":"normal","backgroundColor":"transparent","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"},"groupHeaderStyle":{"fontWeight":"normal","backgroundColor":"transparent","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"},"cellStyle":{"fontWeight":"normal"}},"elementId":"uqacgoxxci","dataKey":"f109f13669b4a6d61f77636c442865ef"},"children":[]},"class":"reactR_markup"},"evals":["tag.attribs.columns.0.style","tag.attribs.columns.1.style","tag.attribs.columns.2.style","tag.attribs.columns.3.style","tag.attribs.columns.4.style","tag.attribs.columns.5.style"],"jsHooks":[]}</script>
 </div>
 </div>
 </div>
@@ -1079,23 +1082,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <div class="cell">
 <div class="cell-output-display">
-<div id="quzfusahnk" class=".gt_table" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#quzfusahnk table {
+<div id="ugkfokfbuq" class=".gt_table" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ugkfokfbuq table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#quzfusahnk thead, #quzfusahnk tbody, #quzfusahnk tfoot, #quzfusahnk tr, #quzfusahnk td, #quzfusahnk th {
+#ugkfokfbuq thead, #ugkfokfbuq tbody, #ugkfokfbuq tfoot, #ugkfokfbuq tr, #ugkfokfbuq td, #ugkfokfbuq th {
   border-style: none;
 }
 
-#quzfusahnk p {
+#ugkfokfbuq p {
   margin: 0;
   padding: 0;
 }
 
-#quzfusahnk .gt_table {
+#ugkfokfbuq .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1121,12 +1124,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#quzfusahnk .gt_caption {
+#ugkfokfbuq .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#quzfusahnk .gt_title {
+#ugkfokfbuq .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1138,7 +1141,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#quzfusahnk .gt_subtitle {
+#ugkfokfbuq .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1150,7 +1153,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#quzfusahnk .gt_heading {
+#ugkfokfbuq .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1162,13 +1165,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#quzfusahnk .gt_bottom_border {
+#ugkfokfbuq .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#quzfusahnk .gt_col_headings {
+#ugkfokfbuq .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1183,7 +1186,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#quzfusahnk .gt_col_heading {
+#ugkfokfbuq .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1203,7 +1206,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#quzfusahnk .gt_column_spanner_outer {
+#ugkfokfbuq .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1215,15 +1218,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#quzfusahnk .gt_column_spanner_outer:first-child {
+#ugkfokfbuq .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#quzfusahnk .gt_column_spanner_outer:last-child {
+#ugkfokfbuq .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#quzfusahnk .gt_column_spanner {
+#ugkfokfbuq .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1235,11 +1238,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#quzfusahnk .gt_spanner_row {
+#ugkfokfbuq .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#quzfusahnk .gt_group_heading {
+#ugkfokfbuq .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1265,7 +1268,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#quzfusahnk .gt_empty_group_heading {
+#ugkfokfbuq .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1280,15 +1283,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#quzfusahnk .gt_from_md > :first-child {
+#ugkfokfbuq .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#quzfusahnk .gt_from_md > :last-child {
+#ugkfokfbuq .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#quzfusahnk .gt_row {
+#ugkfokfbuq .gt_row {
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 5px;
@@ -1307,7 +1310,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#quzfusahnk .gt_stub {
+#ugkfokfbuq .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1320,7 +1323,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#quzfusahnk .gt_stub_row_group {
+#ugkfokfbuq .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1334,15 +1337,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#quzfusahnk .gt_row_group_first td {
+#ugkfokfbuq .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#quzfusahnk .gt_row_group_first th {
+#ugkfokfbuq .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#quzfusahnk .gt_summary_row {
+#ugkfokfbuq .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1352,16 +1355,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#quzfusahnk .gt_first_summary_row {
+#ugkfokfbuq .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#quzfusahnk .gt_first_summary_row.thick {
+#ugkfokfbuq .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#quzfusahnk .gt_last_summary_row {
+#ugkfokfbuq .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1371,7 +1374,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#quzfusahnk .gt_grand_summary_row {
+#ugkfokfbuq .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1381,7 +1384,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#quzfusahnk .gt_first_grand_summary_row {
+#ugkfokfbuq .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1391,7 +1394,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#quzfusahnk .gt_last_grand_summary_row_top {
+#ugkfokfbuq .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1401,11 +1404,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#quzfusahnk .gt_striped {
+#ugkfokfbuq .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#quzfusahnk .gt_table_body {
+#ugkfokfbuq .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1414,7 +1417,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#quzfusahnk .gt_footnotes {
+#ugkfokfbuq .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1428,7 +1431,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#quzfusahnk .gt_footnote {
+#ugkfokfbuq .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1437,7 +1440,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#quzfusahnk .gt_sourcenotes {
+#ugkfokfbuq .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1451,7 +1454,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#quzfusahnk .gt_sourcenote {
+#ugkfokfbuq .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1459,77 +1462,77 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#quzfusahnk .gt_left {
+#ugkfokfbuq .gt_left {
   text-align: left;
 }
 
-#quzfusahnk .gt_center {
+#ugkfokfbuq .gt_center {
   text-align: center;
 }
 
-#quzfusahnk .gt_right {
+#ugkfokfbuq .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#quzfusahnk .gt_font_normal {
+#ugkfokfbuq .gt_font_normal {
   font-weight: normal;
 }
 
-#quzfusahnk .gt_font_bold {
+#ugkfokfbuq .gt_font_bold {
   font-weight: bold;
 }
 
-#quzfusahnk .gt_font_italic {
+#ugkfokfbuq .gt_font_italic {
   font-style: italic;
 }
 
-#quzfusahnk .gt_super {
+#ugkfokfbuq .gt_super {
   font-size: 65%;
 }
 
-#quzfusahnk .gt_footnote_marks {
+#ugkfokfbuq .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#quzfusahnk .gt_asterisk {
+#ugkfokfbuq .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#quzfusahnk .gt_indent_1 {
+#ugkfokfbuq .gt_indent_1 {
   text-indent: 5px;
 }
 
-#quzfusahnk .gt_indent_2 {
+#ugkfokfbuq .gt_indent_2 {
   text-indent: 10px;
 }
 
-#quzfusahnk .gt_indent_3 {
+#ugkfokfbuq .gt_indent_3 {
   text-indent: 15px;
 }
 
-#quzfusahnk .gt_indent_4 {
+#ugkfokfbuq .gt_indent_4 {
   text-indent: 20px;
 }
 
-#quzfusahnk .gt_indent_5 {
+#ugkfokfbuq .gt_indent_5 {
   text-indent: 25px;
 }
 
-#quzfusahnk .katex-display {
+#ugkfokfbuq .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#quzfusahnk div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#ugkfokfbuq div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
-<div id="quzfusahnk" class="reactable html-widget" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="quzfusahnk">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"bill_link":["<a href='../legislation/SF2089.html'>SF 2089<\/a>","<a href='../legislation/SF2086.html'>SF 2086<\/a>","<a href='../legislation/HSB68.html'>HSB 68<\/a>","<a href='../legislation/HSB26.html'>HSB 26<\/a>","<a href='../legislation/HSB18.html'>HSB 18<\/a>"],"title":["A bill for an act relating to information provided to the department of workforce development during the fact-finding process for claims for unemployment benefits.(Formerly SSB 3003.)","A bill for an act authorizing schools to offer an elective junior fire fighter program to students enrolled in grades eleven and twelve. (Formerly SSB 3007.) Effective date: 07/01/2026.","A bill for an act relating to workforce training, unemployment insurance, adult education, and other functions and programs of the department of workforce development, the workforce development board, and local workforce development boards, and making appropriations.(See HF 722.)","A bill for an act concerning private sector employee drug testing.(See HF 767.)","A bill for an act concerning the functions of the employment appeal board; the workers' compensation commissioner; and the department of inspections, appeals, and licensing relating to contested cases, judicial review, and liability.(See HF 441.)"],"date":["2026-03-19","2026-03-19","2025-02-25","2025-02-13","2025-02-13"],"description":["House Committee On Labor And Workforce Report","House Committee On Labor And Workforce Report","House Committee On Labor And Workforce Report","House Committee On Labor And Workforce Report","House Committee On Labor And Workforce Report"],"yea":[10,15,17,10,16],"nay":[5,0,0,6,0],"nv":[0,0,0,0,0],"absent":[2,2,0,0,0],"total":[17,17,17,16,16]},"columns":[{"id":"bill_link","name":"Bill","type":["glue","character"],"na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","cell":["<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vU0YyMDg5Lmh0bWwnPlNGIDIwODk8L2E+\"><span class='gt_from_md'><a href='../legislation/SF2089.html'>SF 2089<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vU0YyMDg2Lmh0bWwnPlNGIDIwODY8L2E+\"><span class='gt_from_md'><a href='../legislation/SF2086.html'>SF 2086<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCNjguaHRtbCc+SFNCIDY4PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HSB68.html'>HSB 68<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCMjYuaHRtbCc+SFNCIDI2PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HSB26.html'>HSB 26<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCMTguaHRtbCc+SFNCIDE4PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HSB18.html'>HSB 18<\/a><\/span><\/span>"],"html":true,"align":"center"},{"id":"title","name":"Title","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"left"},{"id":"date","name":"Date","type":"Date","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"description","name":"Description","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"left"},{"id":"yea","name":"Yea","type":"numeric","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"nay","name":"Nay","type":"numeric","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"nv","name":"NV","type":"numeric","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"absent","name":"Absent","type":"numeric","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"total","name":"Total","type":"numeric","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"}],"filterable":true,"searchable":true,"defaultPageSize":25,"showPageSizeOptions":true,"pageSizeOptions":[10,25,50,100],"paginationType":"numbers","showPagination":true,"showPageInfo":true,"minRows":1,"height":"auto","theme":{"color":"#333333","backgroundColor":"#FFFFFF","stripedColor":"rgba(128,128,128,0.05)","style":{"font-family":"system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif","fontSize":"12px"},"tableStyle":{"borderTopStyle":"solid","borderTopWidth":"2px","borderTopColor":"#D3D3D3"},"headerStyle":{"fontWeight":"normal","backgroundColor":"transparent","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"},"groupHeaderStyle":{"fontWeight":"normal","backgroundColor":"transparent","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"},"cellStyle":{"fontWeight":"normal"}},"elementId":"quzfusahnk","dataKey":"ebdc9c0c035c071ef5ebe6b43faf7e95"},"children":[]},"class":"reactR_markup"},"evals":["tag.attribs.columns.0.style","tag.attribs.columns.1.style","tag.attribs.columns.2.style","tag.attribs.columns.3.style","tag.attribs.columns.4.style","tag.attribs.columns.5.style","tag.attribs.columns.6.style","tag.attribs.columns.7.style","tag.attribs.columns.8.style"],"jsHooks":[]}</script>
+<div id="ugkfokfbuq" class="reactable html-widget" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="ugkfokfbuq">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"bill_link":["<a href='../legislation/SF2089.html'>SF 2089<\/a>","<a href='../legislation/SF2086.html'>SF 2086<\/a>","<a href='../legislation/HSB68.html'>HSB 68<\/a>","<a href='../legislation/HSB26.html'>HSB 26<\/a>","<a href='../legislation/HSB18.html'>HSB 18<\/a>"],"title":["A bill for an act relating to information provided to the department of workforce development during the fact-finding process for claims for unemployment benefits.(Formerly SSB 3003.)","A bill for an act authorizing schools to offer an elective junior fire fighter program to students enrolled in grades eleven and twelve. (Formerly SSB 3007.) Effective date: 07/01/2026.","A bill for an act relating to workforce training, unemployment insurance, adult education, and other functions and programs of the department of workforce development, the workforce development board, and local workforce development boards, and making appropriations.(See HF 722.)","A bill for an act concerning private sector employee drug testing.(See HF 767.)","A bill for an act concerning the functions of the employment appeal board; the workers' compensation commissioner; and the department of inspections, appeals, and licensing relating to contested cases, judicial review, and liability.(See HF 441.)"],"date":["2026-03-19","2026-03-19","2025-02-25","2025-02-13","2025-02-13"],"description":["House Committee On Labor And Workforce Report","House Committee On Labor And Workforce Report","House Committee On Labor And Workforce Report","House Committee On Labor And Workforce Report","House Committee On Labor And Workforce Report"],"yea":[10,15,17,10,16],"nay":[5,0,0,6,0],"nv":[0,0,0,0,0],"absent":[2,2,0,0,0],"total":[17,17,17,16,16]},"columns":[{"id":"bill_link","name":"Bill","type":["glue","character"],"na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","cell":["<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vU0YyMDg5Lmh0bWwnPlNGIDIwODk8L2E+\"><span class='gt_from_md'><a href='../legislation/SF2089.html'>SF 2089<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vU0YyMDg2Lmh0bWwnPlNGIDIwODY8L2E+\"><span class='gt_from_md'><a href='../legislation/SF2086.html'>SF 2086<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCNjguaHRtbCc+SFNCIDY4PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HSB68.html'>HSB 68<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCMjYuaHRtbCc+SFNCIDI2PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HSB26.html'>HSB 26<\/a><\/span><\/span>","<span data-qmd-base64=\"PGEgaHJlZj0nLi4vbGVnaXNsYXRpb24vSFNCMTguaHRtbCc+SFNCIDE4PC9hPg==\"><span class='gt_from_md'><a href='../legislation/HSB18.html'>HSB 18<\/a><\/span><\/span>"],"html":true,"align":"center"},{"id":"title","name":"Title","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"left"},{"id":"date","name":"Date","type":"Date","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"description","name":"Description","type":"character","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"left"},{"id":"yea","name":"Yea","type":"numeric","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"nay","name":"Nay","type":"numeric","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"nv","name":"NV","type":"numeric","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"absent","name":"Absent","type":"numeric","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"},{"id":"total","name":"Total","type":"numeric","na":"NA","minWidth":125,"style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'bill_link' & rowIndex === 1) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 2) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 3) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 4) {\n  return { whiteSpace: 'nowrap' }\n}\n\nif (colInfo.id === 'bill_link' & rowIndex === 5) {\n  return { whiteSpace: 'nowrap' }\n}\n\n}","html":true,"align":"right"}],"filterable":true,"searchable":true,"defaultPageSize":25,"showPageSizeOptions":true,"pageSizeOptions":[10,25,50,100],"paginationType":"numbers","showPagination":true,"showPageInfo":true,"minRows":1,"height":"auto","theme":{"color":"#333333","backgroundColor":"#FFFFFF","stripedColor":"rgba(128,128,128,0.05)","style":{"font-family":"system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif","fontSize":"12px"},"tableStyle":{"borderTopStyle":"solid","borderTopWidth":"2px","borderTopColor":"#D3D3D3"},"headerStyle":{"fontWeight":"normal","backgroundColor":"transparent","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"},"groupHeaderStyle":{"fontWeight":"normal","backgroundColor":"transparent","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"},"cellStyle":{"fontWeight":"normal"}},"elementId":"ugkfokfbuq","dataKey":"ebdc9c0c035c071ef5ebe6b43faf7e95"},"children":[]},"class":"reactR_markup"},"evals":["tag.attribs.columns.0.style","tag.attribs.columns.1.style","tag.attribs.columns.2.style","tag.attribs.columns.3.style","tag.attribs.columns.4.style","tag.attribs.columns.5.style","tag.attribs.columns.6.style","tag.attribs.columns.7.style","tag.attribs.columns.8.style"],"jsHooks":[]}</script>
 </div>
 </div>
 </div>
@@ -1537,7 +1540,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <hr>
-<p>This page was generated from LegiScan data for the Iowa Legislature. Last updated: 2026-07-24</p>
+<p>This page was generated from LegiScan data for the Iowa Legislature. Last updated: 2026-07-25</p>
 
 
 </section>
